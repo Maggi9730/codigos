@@ -1,892 +1,960 @@
-PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
-1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
-2,1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,PC 17599,71.2833,C85,C
-3,1,3,"Heikkinen, Miss. Laina",female,26,0,0,STON/O2. 3101282,7.925,,S
-4,1,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",female,35,1,0,113803,53.1,C123,S
-5,0,3,"Allen, Mr. William Henry",male,35,0,0,373450,8.05,,S
-6,0,3,"Moran, Mr. James",male,,0,0,330877,8.4583,,Q
-7,0,1,"McCarthy, Mr. Timothy J",male,54,0,0,17463,51.8625,E46,S
-8,0,3,"Palsson, Master. Gosta Leonard",male,2,3,1,349909,21.075,,S
-9,1,3,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,0,2,347742,11.1333,,S
-10,1,2,"Nasser, Mrs. Nicholas (Adele Achem)",female,14,1,0,237736,30.0708,,C
-11,1,3,"Sandstrom, Miss. Marguerite Rut",female,4,1,1,PP 9549,16.7,G6,S
-12,1,1,"Bonnell, Miss. Elizabeth",female,58,0,0,113783,26.55,C103,S
-13,0,3,"Saundercock, Mr. William Henry",male,20,0,0,A/5. 2151,8.05,,S
-14,0,3,"Andersson, Mr. Anders Johan",male,39,1,5,347082,31.275,,S
-15,0,3,"Vestrom, Miss. Hulda Amanda Adolfina",female,14,0,0,350406,7.8542,,S
-16,1,2,"Hewlett, Mrs. (Mary D Kingcome) ",female,55,0,0,248706,16,,S
-17,0,3,"Rice, Master. Eugene",male,2,4,1,382652,29.125,,Q
-18,1,2,"Williams, Mr. Charles Eugene",male,,0,0,244373,13,,S
-19,0,3,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",female,31,1,0,345763,18,,S
-20,1,3,"Masselmani, Mrs. Fatima",female,,0,0,2649,7.225,,C
-21,0,2,"Fynney, Mr. Joseph J",male,35,0,0,239865,26,,S
-22,1,2,"Beesley, Mr. Lawrence",male,34,0,0,248698,13,D56,S
-23,1,3,"McGowan, Miss. Anna ""Annie""",female,15,0,0,330923,8.0292,,Q
-24,1,1,"Sloper, Mr. William Thompson",male,28,0,0,113788,35.5,A6,S
-25,0,3,"Palsson, Miss. Torborg Danira",female,8,3,1,349909,21.075,,S
-26,1,3,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",female,38,1,5,347077,31.3875,,S
-27,0,3,"Emir, Mr. Farred Chehab",male,,0,0,2631,7.225,,C
-28,0,1,"Fortune, Mr. Charles Alexander",male,19,3,2,19950,263,C23 C25 C27,S
-29,1,3,"O'Dwyer, Miss. Ellen ""Nellie""",female,,0,0,330959,7.8792,,Q
-30,0,3,"Todoroff, Mr. Lalio",male,,0,0,349216,7.8958,,S
-31,0,1,"Uruchurtu, Don. Manuel E",male,40,0,0,PC 17601,27.7208,,C
-32,1,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",female,,1,0,PC 17569,146.5208,B78,C
-33,1,3,"Glynn, Miss. Mary Agatha",female,,0,0,335677,7.75,,Q
-34,0,2,"Wheadon, Mr. Edward H",male,66,0,0,C.A. 24579,10.5,,S
-35,0,1,"Meyer, Mr. Edgar Joseph",male,28,1,0,PC 17604,82.1708,,C
-36,0,1,"Holverson, Mr. Alexander Oskar",male,42,1,0,113789,52,,S
-37,1,3,"Mamee, Mr. Hanna",male,,0,0,2677,7.2292,,C
-38,0,3,"Cann, Mr. Ernest Charles",male,21,0,0,A./5. 2152,8.05,,S
-39,0,3,"Vander Planke, Miss. Augusta Maria",female,18,2,0,345764,18,,S
-40,1,3,"Nicola-Yarred, Miss. Jamila",female,14,1,0,2651,11.2417,,C
-41,0,3,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",female,40,1,0,7546,9.475,,S
-42,0,2,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",female,27,1,0,11668,21,,S
-43,0,3,"Kraeff, Mr. Theodor",male,,0,0,349253,7.8958,,C
-44,1,2,"Laroche, Miss. Simonne Marie Anne Andree",female,3,1,2,SC/Paris 2123,41.5792,,C
-45,1,3,"Devaney, Miss. Margaret Delia",female,19,0,0,330958,7.8792,,Q
-46,0,3,"Rogers, Mr. William John",male,,0,0,S.C./A.4. 23567,8.05,,S
-47,0,3,"Lennon, Mr. Denis",male,,1,0,370371,15.5,,Q
-48,1,3,"O'Driscoll, Miss. Bridget",female,,0,0,14311,7.75,,Q
-49,0,3,"Samaan, Mr. Youssef",male,,2,0,2662,21.6792,,C
-50,0,3,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",female,18,1,0,349237,17.8,,S
-51,0,3,"Panula, Master. Juha Niilo",male,7,4,1,3101295,39.6875,,S
-52,0,3,"Nosworthy, Mr. Richard Cater",male,21,0,0,A/4. 39886,7.8,,S
-53,1,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",female,49,1,0,PC 17572,76.7292,D33,C
-54,1,2,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",female,29,1,0,2926,26,,S
-55,0,1,"Ostby, Mr. Engelhart Cornelius",male,65,0,1,113509,61.9792,B30,C
-56,1,1,"Woolner, Mr. Hugh",male,,0,0,19947,35.5,C52,S
-57,1,2,"Rugg, Miss. Emily",female,21,0,0,C.A. 31026,10.5,,S
-58,0,3,"Novel, Mr. Mansouer",male,28.5,0,0,2697,7.2292,,C
-59,1,2,"West, Miss. Constance Mirium",female,5,1,2,C.A. 34651,27.75,,S
-60,0,3,"Goodwin, Master. William Frederick",male,11,5,2,CA 2144,46.9,,S
-61,0,3,"Sirayanian, Mr. Orsen",male,22,0,0,2669,7.2292,,C
-62,1,1,"Icard, Miss. Amelie",female,38,0,0,113572,80,B28,
-63,0,1,"Harris, Mr. Henry Birkhardt",male,45,1,0,36973,83.475,C83,S
-64,0,3,"Skoog, Master. Harald",male,4,3,2,347088,27.9,,S
-65,0,1,"Stewart, Mr. Albert A",male,,0,0,PC 17605,27.7208,,C
-66,1,3,"Moubarek, Master. Gerios",male,,1,1,2661,15.2458,,C
-67,1,2,"Nye, Mrs. (Elizabeth Ramell)",female,29,0,0,C.A. 29395,10.5,F33,S
-68,0,3,"Crease, Mr. Ernest James",male,19,0,0,S.P. 3464,8.1583,,S
-69,1,3,"Andersson, Miss. Erna Alexandra",female,17,4,2,3101281,7.925,,S
-70,0,3,"Kink, Mr. Vincenz",male,26,2,0,315151,8.6625,,S
-71,0,2,"Jenkin, Mr. Stephen Curnow",male,32,0,0,C.A. 33111,10.5,,S
-72,0,3,"Goodwin, Miss. Lillian Amy",female,16,5,2,CA 2144,46.9,,S
-73,0,2,"Hood, Mr. Ambrose Jr",male,21,0,0,S.O.C. 14879,73.5,,S
-74,0,3,"Chronopoulos, Mr. Apostolos",male,26,1,0,2680,14.4542,,C
-75,1,3,"Bing, Mr. Lee",male,32,0,0,1601,56.4958,,S
-76,0,3,"Moen, Mr. Sigurd Hansen",male,25,0,0,348123,7.65,F G73,S
-77,0,3,"Staneff, Mr. Ivan",male,,0,0,349208,7.8958,,S
-78,0,3,"Moutal, Mr. Rahamin Haim",male,,0,0,374746,8.05,,S
-79,1,2,"Caldwell, Master. Alden Gates",male,0.83,0,2,248738,29,,S
-80,1,3,"Dowdell, Miss. Elizabeth",female,30,0,0,364516,12.475,,S
-81,0,3,"Waelens, Mr. Achille",male,22,0,0,345767,9,,S
-82,1,3,"Sheerlinck, Mr. Jan Baptist",male,29,0,0,345779,9.5,,S
-83,1,3,"McDermott, Miss. Brigdet Delia",female,,0,0,330932,7.7875,,Q
-84,0,1,"Carrau, Mr. Francisco M",male,28,0,0,113059,47.1,,S
-85,1,2,"Ilett, Miss. Bertha",female,17,0,0,SO/C 14885,10.5,,S
-86,1,3,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",female,33,3,0,3101278,15.85,,S
-87,0,3,"Ford, Mr. William Neal",male,16,1,3,W./C. 6608,34.375,,S
-88,0,3,"Slocovski, Mr. Selman Francis",male,,0,0,SOTON/OQ 392086,8.05,,S
-89,1,1,"Fortune, Miss. Mabel Helen",female,23,3,2,19950,263,C23 C25 C27,S
-90,0,3,"Celotti, Mr. Francesco",male,24,0,0,343275,8.05,,S
-91,0,3,"Christmann, Mr. Emil",male,29,0,0,343276,8.05,,S
-92,0,3,"Andreasson, Mr. Paul Edvin",male,20,0,0,347466,7.8542,,S
-93,0,1,"Chaffee, Mr. Herbert Fuller",male,46,1,0,W.E.P. 5734,61.175,E31,S
-94,0,3,"Dean, Mr. Bertram Frank",male,26,1,2,C.A. 2315,20.575,,S
-95,0,3,"Coxon, Mr. Daniel",male,59,0,0,364500,7.25,,S
-96,0,3,"Shorney, Mr. Charles Joseph",male,,0,0,374910,8.05,,S
-97,0,1,"Goldschmidt, Mr. George B",male,71,0,0,PC 17754,34.6542,A5,C
-98,1,1,"Greenfield, Mr. William Bertram",male,23,0,1,PC 17759,63.3583,D10 D12,C
-99,1,2,"Doling, Mrs. John T (Ada Julia Bone)",female,34,0,1,231919,23,,S
-100,0,2,"Kantor, Mr. Sinai",male,34,1,0,244367,26,,S
-101,0,3,"Petranec, Miss. Matilda",female,28,0,0,349245,7.8958,,S
-102,0,3,"Petroff, Mr. Pastcho (""Pentcho"")",male,,0,0,349215,7.8958,,S
-103,0,1,"White, Mr. Richard Frasar",male,21,0,1,35281,77.2875,D26,S
-104,0,3,"Johansson, Mr. Gustaf Joel",male,33,0,0,7540,8.6542,,S
-105,0,3,"Gustafsson, Mr. Anders Vilhelm",male,37,2,0,3101276,7.925,,S
-106,0,3,"Mionoff, Mr. Stoytcho",male,28,0,0,349207,7.8958,,S
-107,1,3,"Salkjelsvik, Miss. Anna Kristine",female,21,0,0,343120,7.65,,S
-108,1,3,"Moss, Mr. Albert Johan",male,,0,0,312991,7.775,,S
-109,0,3,"Rekic, Mr. Tido",male,38,0,0,349249,7.8958,,S
-110,1,3,"Moran, Miss. Bertha",female,,1,0,371110,24.15,,Q
-111,0,1,"Porter, Mr. Walter Chamberlain",male,47,0,0,110465,52,C110,S
-112,0,3,"Zabour, Miss. Hileni",female,14.5,1,0,2665,14.4542,,C
-113,0,3,"Barton, Mr. David John",male,22,0,0,324669,8.05,,S
-114,0,3,"Jussila, Miss. Katriina",female,20,1,0,4136,9.825,,S
-115,0,3,"Attalah, Miss. Malake",female,17,0,0,2627,14.4583,,C
-116,0,3,"Pekoniemi, Mr. Edvard",male,21,0,0,STON/O 2. 3101294,7.925,,S
-117,0,3,"Connors, Mr. Patrick",male,70.5,0,0,370369,7.75,,Q
-118,0,2,"Turpin, Mr. William John Robert",male,29,1,0,11668,21,,S
-119,0,1,"Baxter, Mr. Quigg Edmond",male,24,0,1,PC 17558,247.5208,B58 B60,C
-120,0,3,"Andersson, Miss. Ellis Anna Maria",female,2,4,2,347082,31.275,,S
-121,0,2,"Hickman, Mr. Stanley George",male,21,2,0,S.O.C. 14879,73.5,,S
-122,0,3,"Moore, Mr. Leonard Charles",male,,0,0,A4. 54510,8.05,,S
-123,0,2,"Nasser, Mr. Nicholas",male,32.5,1,0,237736,30.0708,,C
-124,1,2,"Webber, Miss. Susan",female,32.5,0,0,27267,13,E101,S
-125,0,1,"White, Mr. Percival Wayland",male,54,0,1,35281,77.2875,D26,S
-126,1,3,"Nicola-Yarred, Master. Elias",male,12,1,0,2651,11.2417,,C
-127,0,3,"McMahon, Mr. Martin",male,,0,0,370372,7.75,,Q
-128,1,3,"Madsen, Mr. Fridtjof Arne",male,24,0,0,C 17369,7.1417,,S
-129,1,3,"Peter, Miss. Anna",female,,1,1,2668,22.3583,F E69,C
-130,0,3,"Ekstrom, Mr. Johan",male,45,0,0,347061,6.975,,S
-131,0,3,"Drazenoic, Mr. Jozef",male,33,0,0,349241,7.8958,,C
-132,0,3,"Coelho, Mr. Domingos Fernandeo",male,20,0,0,SOTON/O.Q. 3101307,7.05,,S
-133,0,3,"Robins, Mrs. Alexander A (Grace Charity Laury)",female,47,1,0,A/5. 3337,14.5,,S
-134,1,2,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",female,29,1,0,228414,26,,S
-135,0,2,"Sobey, Mr. Samuel James Hayden",male,25,0,0,C.A. 29178,13,,S
-136,0,2,"Richard, Mr. Emile",male,23,0,0,SC/PARIS 2133,15.0458,,C
-137,1,1,"Newsom, Miss. Helen Monypeny",female,19,0,2,11752,26.2833,D47,S
-138,0,1,"Futrelle, Mr. Jacques Heath",male,37,1,0,113803,53.1,C123,S
-139,0,3,"Osen, Mr. Olaf Elon",male,16,0,0,7534,9.2167,,S
-140,0,1,"Giglio, Mr. Victor",male,24,0,0,PC 17593,79.2,B86,C
-141,0,3,"Boulos, Mrs. Joseph (Sultana)",female,,0,2,2678,15.2458,,C
-142,1,3,"Nysten, Miss. Anna Sofia",female,22,0,0,347081,7.75,,S
-143,1,3,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",female,24,1,0,STON/O2. 3101279,15.85,,S
-144,0,3,"Burke, Mr. Jeremiah",male,19,0,0,365222,6.75,,Q
-145,0,2,"Andrew, Mr. Edgardo Samuel",male,18,0,0,231945,11.5,,S
-146,0,2,"Nicholls, Mr. Joseph Charles",male,19,1,1,C.A. 33112,36.75,,S
-147,1,3,"Andersson, Mr. August Edvard (""Wennerstrom"")",male,27,0,0,350043,7.7958,,S
-148,0,3,"Ford, Miss. Robina Maggie ""Ruby""",female,9,2,2,W./C. 6608,34.375,,S
-149,0,2,"Navratil, Mr. Michel (""Louis M Hoffman"")",male,36.5,0,2,230080,26,F2,S
-150,0,2,"Byles, Rev. Thomas Roussel Davids",male,42,0,0,244310,13,,S
-151,0,2,"Bateman, Rev. Robert James",male,51,0,0,S.O.P. 1166,12.525,,S
-152,1,1,"Pears, Mrs. Thomas (Edith Wearne)",female,22,1,0,113776,66.6,C2,S
-153,0,3,"Meo, Mr. Alfonzo",male,55.5,0,0,A.5. 11206,8.05,,S
-154,0,3,"van Billiard, Mr. Austin Blyler",male,40.5,0,2,A/5. 851,14.5,,S
-155,0,3,"Olsen, Mr. Ole Martin",male,,0,0,Fa 265302,7.3125,,S
-156,0,1,"Williams, Mr. Charles Duane",male,51,0,1,PC 17597,61.3792,,C
-157,1,3,"Gilnagh, Miss. Katherine ""Katie""",female,16,0,0,35851,7.7333,,Q
-158,0,3,"Corn, Mr. Harry",male,30,0,0,SOTON/OQ 392090,8.05,,S
-159,0,3,"Smiljanic, Mr. Mile",male,,0,0,315037,8.6625,,S
-160,0,3,"Sage, Master. Thomas Henry",male,,8,2,CA. 2343,69.55,,S
-161,0,3,"Cribb, Mr. John Hatfield",male,44,0,1,371362,16.1,,S
-162,1,2,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",female,40,0,0,C.A. 33595,15.75,,S
-163,0,3,"Bengtsson, Mr. John Viktor",male,26,0,0,347068,7.775,,S
-164,0,3,"Calic, Mr. Jovo",male,17,0,0,315093,8.6625,,S
-165,0,3,"Panula, Master. Eino Viljami",male,1,4,1,3101295,39.6875,,S
-166,1,3,"Goldsmith, Master. Frank John William ""Frankie""",male,9,0,2,363291,20.525,,S
-167,1,1,"Chibnall, Mrs. (Edith Martha Bowerman)",female,,0,1,113505,55,E33,S
-168,0,3,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",female,45,1,4,347088,27.9,,S
-169,0,1,"Baumann, Mr. John D",male,,0,0,PC 17318,25.925,,S
-170,0,3,"Ling, Mr. Lee",male,28,0,0,1601,56.4958,,S
-171,0,1,"Van der hoef, Mr. Wyckoff",male,61,0,0,111240,33.5,B19,S
-172,0,3,"Rice, Master. Arthur",male,4,4,1,382652,29.125,,Q
-173,1,3,"Johnson, Miss. Eleanor Ileen",female,1,1,1,347742,11.1333,,S
-174,0,3,"Sivola, Mr. Antti Wilhelm",male,21,0,0,STON/O 2. 3101280,7.925,,S
-175,0,1,"Smith, Mr. James Clinch",male,56,0,0,17764,30.6958,A7,C
-176,0,3,"Klasen, Mr. Klas Albin",male,18,1,1,350404,7.8542,,S
-177,0,3,"Lefebre, Master. Henry Forbes",male,,3,1,4133,25.4667,,S
-178,0,1,"Isham, Miss. Ann Elizabeth",female,50,0,0,PC 17595,28.7125,C49,C
-179,0,2,"Hale, Mr. Reginald",male,30,0,0,250653,13,,S
-180,0,3,"Leonard, Mr. Lionel",male,36,0,0,LINE,0,,S
-181,0,3,"Sage, Miss. Constance Gladys",female,,8,2,CA. 2343,69.55,,S
-182,0,2,"Pernot, Mr. Rene",male,,0,0,SC/PARIS 2131,15.05,,C
-183,0,3,"Asplund, Master. Clarence Gustaf Hugo",male,9,4,2,347077,31.3875,,S
-184,1,2,"Becker, Master. Richard F",male,1,2,1,230136,39,F4,S
-185,1,3,"Kink-Heilmann, Miss. Luise Gretchen",female,4,0,2,315153,22.025,,S
-186,0,1,"Rood, Mr. Hugh Roscoe",male,,0,0,113767,50,A32,S
-187,1,3,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",female,,1,0,370365,15.5,,Q
-188,1,1,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",male,45,0,0,111428,26.55,,S
-189,0,3,"Bourke, Mr. John",male,40,1,1,364849,15.5,,Q
-190,0,3,"Turcin, Mr. Stjepan",male,36,0,0,349247,7.8958,,S
-191,1,2,"Pinsky, Mrs. (Rosa)",female,32,0,0,234604,13,,S
-192,0,2,"Carbines, Mr. William",male,19,0,0,28424,13,,S
-193,1,3,"Andersen-Jensen, Miss. Carla Christine Nielsine",female,19,1,0,350046,7.8542,,S
-194,1,2,"Navratil, Master. Michel M",male,3,1,1,230080,26,F2,S
-195,1,1,"Brown, Mrs. James Joseph (Margaret Tobin)",female,44,0,0,PC 17610,27.7208,B4,C
-196,1,1,"Lurette, Miss. Elise",female,58,0,0,PC 17569,146.5208,B80,C
-197,0,3,"Mernagh, Mr. Robert",male,,0,0,368703,7.75,,Q
-198,0,3,"Olsen, Mr. Karl Siegwart Andreas",male,42,0,1,4579,8.4042,,S
-199,1,3,"Madigan, Miss. Margaret ""Maggie""",female,,0,0,370370,7.75,,Q
-200,0,2,"Yrois, Miss. Henriette (""Mrs Harbeck"")",female,24,0,0,248747,13,,S
-201,0,3,"Vande Walle, Mr. Nestor Cyriel",male,28,0,0,345770,9.5,,S
-202,0,3,"Sage, Mr. Frederick",male,,8,2,CA. 2343,69.55,,S
-203,0,3,"Johanson, Mr. Jakob Alfred",male,34,0,0,3101264,6.4958,,S
-204,0,3,"Youseff, Mr. Gerious",male,45.5,0,0,2628,7.225,,C
-205,1,3,"Cohen, Mr. Gurshon ""Gus""",male,18,0,0,A/5 3540,8.05,,S
-206,0,3,"Strom, Miss. Telma Matilda",female,2,0,1,347054,10.4625,G6,S
-207,0,3,"Backstrom, Mr. Karl Alfred",male,32,1,0,3101278,15.85,,S
-208,1,3,"Albimona, Mr. Nassef Cassem",male,26,0,0,2699,18.7875,,C
-209,1,3,"Carr, Miss. Helen ""Ellen""",female,16,0,0,367231,7.75,,Q
-210,1,1,"Blank, Mr. Henry",male,40,0,0,112277,31,A31,C
-211,0,3,"Ali, Mr. Ahmed",male,24,0,0,SOTON/O.Q. 3101311,7.05,,S
-212,1,2,"Cameron, Miss. Clear Annie",female,35,0,0,F.C.C. 13528,21,,S
-213,0,3,"Perkin, Mr. John Henry",male,22,0,0,A/5 21174,7.25,,S
-214,0,2,"Givard, Mr. Hans Kristensen",male,30,0,0,250646,13,,S
-215,0,3,"Kiernan, Mr. Philip",male,,1,0,367229,7.75,,Q
-216,1,1,"Newell, Miss. Madeleine",female,31,1,0,35273,113.275,D36,C
-217,1,3,"Honkanen, Miss. Eliina",female,27,0,0,STON/O2. 3101283,7.925,,S
-218,0,2,"Jacobsohn, Mr. Sidney Samuel",male,42,1,0,243847,27,,S
-219,1,1,"Bazzani, Miss. Albina",female,32,0,0,11813,76.2917,D15,C
-220,0,2,"Harris, Mr. Walter",male,30,0,0,W/C 14208,10.5,,S
-221,1,3,"Sunderland, Mr. Victor Francis",male,16,0,0,SOTON/OQ 392089,8.05,,S
-222,0,2,"Bracken, Mr. James H",male,27,0,0,220367,13,,S
-223,0,3,"Green, Mr. George Henry",male,51,0,0,21440,8.05,,S
-224,0,3,"Nenkoff, Mr. Christo",male,,0,0,349234,7.8958,,S
-225,1,1,"Hoyt, Mr. Frederick Maxfield",male,38,1,0,19943,90,C93,S
-226,0,3,"Berglund, Mr. Karl Ivar Sven",male,22,0,0,PP 4348,9.35,,S
-227,1,2,"Mellors, Mr. William John",male,19,0,0,SW/PP 751,10.5,,S
-228,0,3,"Lovell, Mr. John Hall (""Henry"")",male,20.5,0,0,A/5 21173,7.25,,S
-229,0,2,"Fahlstrom, Mr. Arne Jonas",male,18,0,0,236171,13,,S
-230,0,3,"Lefebre, Miss. Mathilde",female,,3,1,4133,25.4667,,S
-231,1,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",female,35,1,0,36973,83.475,C83,S
-232,0,3,"Larsson, Mr. Bengt Edvin",male,29,0,0,347067,7.775,,S
-233,0,2,"Sjostedt, Mr. Ernst Adolf",male,59,0,0,237442,13.5,,S
-234,1,3,"Asplund, Miss. Lillian Gertrud",female,5,4,2,347077,31.3875,,S
-235,0,2,"Leyson, Mr. Robert William Norman",male,24,0,0,C.A. 29566,10.5,,S
-236,0,3,"Harknett, Miss. Alice Phoebe",female,,0,0,W./C. 6609,7.55,,S
-237,0,2,"Hold, Mr. Stephen",male,44,1,0,26707,26,,S
-238,1,2,"Collyer, Miss. Marjorie ""Lottie""",female,8,0,2,C.A. 31921,26.25,,S
-239,0,2,"Pengelly, Mr. Frederick William",male,19,0,0,28665,10.5,,S
-240,0,2,"Hunt, Mr. George Henry",male,33,0,0,SCO/W 1585,12.275,,S
-241,0,3,"Zabour, Miss. Thamine",female,,1,0,2665,14.4542,,C
-242,1,3,"Murphy, Miss. Katherine ""Kate""",female,,1,0,367230,15.5,,Q
-243,0,2,"Coleridge, Mr. Reginald Charles",male,29,0,0,W./C. 14263,10.5,,S
-244,0,3,"Maenpaa, Mr. Matti Alexanteri",male,22,0,0,STON/O 2. 3101275,7.125,,S
-245,0,3,"Attalah, Mr. Sleiman",male,30,0,0,2694,7.225,,C
-246,0,1,"Minahan, Dr. William Edward",male,44,2,0,19928,90,C78,Q
-247,0,3,"Lindahl, Miss. Agda Thorilda Viktoria",female,25,0,0,347071,7.775,,S
-248,1,2,"Hamalainen, Mrs. William (Anna)",female,24,0,2,250649,14.5,,S
-249,1,1,"Beckwith, Mr. Richard Leonard",male,37,1,1,11751,52.5542,D35,S
-250,0,2,"Carter, Rev. Ernest Courtenay",male,54,1,0,244252,26,,S
-251,0,3,"Reed, Mr. James George",male,,0,0,362316,7.25,,S
-252,0,3,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",female,29,1,1,347054,10.4625,G6,S
-253,0,1,"Stead, Mr. William Thomas",male,62,0,0,113514,26.55,C87,S
-254,0,3,"Lobb, Mr. William Arthur",male,30,1,0,A/5. 3336,16.1,,S
-255,0,3,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",female,41,0,2,370129,20.2125,,S
-256,1,3,"Touma, Mrs. Darwis (Hanne Youssef Razi)",female,29,0,2,2650,15.2458,,C
-257,1,1,"Thorne, Mrs. Gertrude Maybelle",female,,0,0,PC 17585,79.2,,C
-258,1,1,"Cherry, Miss. Gladys",female,30,0,0,110152,86.5,B77,S
-259,1,1,"Ward, Miss. Anna",female,35,0,0,PC 17755,512.3292,,C
-260,1,2,"Parrish, Mrs. (Lutie Davis)",female,50,0,1,230433,26,,S
-261,0,3,"Smith, Mr. Thomas",male,,0,0,384461,7.75,,Q
-262,1,3,"Asplund, Master. Edvin Rojj Felix",male,3,4,2,347077,31.3875,,S
-263,0,1,"Taussig, Mr. Emil",male,52,1,1,110413,79.65,E67,S
-264,0,1,"Harrison, Mr. William",male,40,0,0,112059,0,B94,S
-265,0,3,"Henry, Miss. Delia",female,,0,0,382649,7.75,,Q
-266,0,2,"Reeves, Mr. David",male,36,0,0,C.A. 17248,10.5,,S
-267,0,3,"Panula, Mr. Ernesti Arvid",male,16,4,1,3101295,39.6875,,S
-268,1,3,"Persson, Mr. Ernst Ulrik",male,25,1,0,347083,7.775,,S
-269,1,1,"Graham, Mrs. William Thompson (Edith Junkins)",female,58,0,1,PC 17582,153.4625,C125,S
-270,1,1,"Bissette, Miss. Amelia",female,35,0,0,PC 17760,135.6333,C99,S
-271,0,1,"Cairns, Mr. Alexander",male,,0,0,113798,31,,S
-272,1,3,"Tornquist, Mr. William Henry",male,25,0,0,LINE,0,,S
-273,1,2,"Mellinger, Mrs. (Elizabeth Anne Maidment)",female,41,0,1,250644,19.5,,S
-274,0,1,"Natsch, Mr. Charles H",male,37,0,1,PC 17596,29.7,C118,C
-275,1,3,"Healy, Miss. Hanora ""Nora""",female,,0,0,370375,7.75,,Q
-276,1,1,"Andrews, Miss. Kornelia Theodosia",female,63,1,0,13502,77.9583,D7,S
-277,0,3,"Lindblom, Miss. Augusta Charlotta",female,45,0,0,347073,7.75,,S
-278,0,2,"Parkes, Mr. Francis ""Frank""",male,,0,0,239853,0,,S
-279,0,3,"Rice, Master. Eric",male,7,4,1,382652,29.125,,Q
-280,1,3,"Abbott, Mrs. Stanton (Rosa Hunt)",female,35,1,1,C.A. 2673,20.25,,S
-281,0,3,"Duane, Mr. Frank",male,65,0,0,336439,7.75,,Q
-282,0,3,"Olsson, Mr. Nils Johan Goransson",male,28,0,0,347464,7.8542,,S
-283,0,3,"de Pelsmaeker, Mr. Alfons",male,16,0,0,345778,9.5,,S
-284,1,3,"Dorking, Mr. Edward Arthur",male,19,0,0,A/5. 10482,8.05,,S
-285,0,1,"Smith, Mr. Richard William",male,,0,0,113056,26,A19,S
-286,0,3,"Stankovic, Mr. Ivan",male,33,0,0,349239,8.6625,,C
-287,1,3,"de Mulder, Mr. Theodore",male,30,0,0,345774,9.5,,S
-288,0,3,"Naidenoff, Mr. Penko",male,22,0,0,349206,7.8958,,S
-289,1,2,"Hosono, Mr. Masabumi",male,42,0,0,237798,13,,S
-290,1,3,"Connolly, Miss. Kate",female,22,0,0,370373,7.75,,Q
-291,1,1,"Barber, Miss. Ellen ""Nellie""",female,26,0,0,19877,78.85,,S
-292,1,1,"Bishop, Mrs. Dickinson H (Helen Walton)",female,19,1,0,11967,91.0792,B49,C
-293,0,2,"Levy, Mr. Rene Jacques",male,36,0,0,SC/Paris 2163,12.875,D,C
-294,0,3,"Haas, Miss. Aloisia",female,24,0,0,349236,8.85,,S
-295,0,3,"Mineff, Mr. Ivan",male,24,0,0,349233,7.8958,,S
-296,0,1,"Lewy, Mr. Ervin G",male,,0,0,PC 17612,27.7208,,C
-297,0,3,"Hanna, Mr. Mansour",male,23.5,0,0,2693,7.2292,,C
-298,0,1,"Allison, Miss. Helen Loraine",female,2,1,2,113781,151.55,C22 C26,S
-299,1,1,"Saalfeld, Mr. Adolphe",male,,0,0,19988,30.5,C106,S
-300,1,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",female,50,0,1,PC 17558,247.5208,B58 B60,C
-301,1,3,"Kelly, Miss. Anna Katherine ""Annie Kate""",female,,0,0,9234,7.75,,Q
-302,1,3,"McCoy, Mr. Bernard",male,,2,0,367226,23.25,,Q
-303,0,3,"Johnson, Mr. William Cahoone Jr",male,19,0,0,LINE,0,,S
-304,1,2,"Keane, Miss. Nora A",female,,0,0,226593,12.35,E101,Q
-305,0,3,"Williams, Mr. Howard Hugh ""Harry""",male,,0,0,A/5 2466,8.05,,S
-306,1,1,"Allison, Master. Hudson Trevor",male,0.92,1,2,113781,151.55,C22 C26,S
-307,1,1,"Fleming, Miss. Margaret",female,,0,0,17421,110.8833,,C
-308,1,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",female,17,1,0,PC 17758,108.9,C65,C
-309,0,2,"Abelson, Mr. Samuel",male,30,1,0,P/PP 3381,24,,C
-310,1,1,"Francatelli, Miss. Laura Mabel",female,30,0,0,PC 17485,56.9292,E36,C
-311,1,1,"Hays, Miss. Margaret Bechstein",female,24,0,0,11767,83.1583,C54,C
-312,1,1,"Ryerson, Miss. Emily Borie",female,18,2,2,PC 17608,262.375,B57 B59 B63 B66,C
-313,0,2,"Lahtinen, Mrs. William (Anna Sylfven)",female,26,1,1,250651,26,,S
-314,0,3,"Hendekovic, Mr. Ignjac",male,28,0,0,349243,7.8958,,S
-315,0,2,"Hart, Mr. Benjamin",male,43,1,1,F.C.C. 13529,26.25,,S
-316,1,3,"Nilsson, Miss. Helmina Josefina",female,26,0,0,347470,7.8542,,S
-317,1,2,"Kantor, Mrs. Sinai (Miriam Sternin)",female,24,1,0,244367,26,,S
-318,0,2,"Moraweck, Dr. Ernest",male,54,0,0,29011,14,,S
-319,1,1,"Wick, Miss. Mary Natalie",female,31,0,2,36928,164.8667,C7,S
-320,1,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",female,40,1,1,16966,134.5,E34,C
-321,0,3,"Dennis, Mr. Samuel",male,22,0,0,A/5 21172,7.25,,S
-322,0,3,"Danoff, Mr. Yoto",male,27,0,0,349219,7.8958,,S
-323,1,2,"Slayter, Miss. Hilda Mary",female,30,0,0,234818,12.35,,Q
-324,1,2,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",female,22,1,1,248738,29,,S
-325,0,3,"Sage, Mr. George John Jr",male,,8,2,CA. 2343,69.55,,S
-326,1,1,"Young, Miss. Marie Grice",female,36,0,0,PC 17760,135.6333,C32,C
-327,0,3,"Nysveen, Mr. Johan Hansen",male,61,0,0,345364,6.2375,,S
-328,1,2,"Ball, Mrs. (Ada E Hall)",female,36,0,0,28551,13,D,S
-329,1,3,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",female,31,1,1,363291,20.525,,S
-330,1,1,"Hippach, Miss. Jean Gertrude",female,16,0,1,111361,57.9792,B18,C
-331,1,3,"McCoy, Miss. Agnes",female,,2,0,367226,23.25,,Q
-332,0,1,"Partner, Mr. Austen",male,45.5,0,0,113043,28.5,C124,S
-333,0,1,"Graham, Mr. George Edward",male,38,0,1,PC 17582,153.4625,C91,S
-334,0,3,"Vander Planke, Mr. Leo Edmondus",male,16,2,0,345764,18,,S
-335,1,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",female,,1,0,PC 17611,133.65,,S
-336,0,3,"Denkoff, Mr. Mitto",male,,0,0,349225,7.8958,,S
-337,0,1,"Pears, Mr. Thomas Clinton",male,29,1,0,113776,66.6,C2,S
-338,1,1,"Burns, Miss. Elizabeth Margaret",female,41,0,0,16966,134.5,E40,C
-339,1,3,"Dahl, Mr. Karl Edwart",male,45,0,0,7598,8.05,,S
-340,0,1,"Blackwell, Mr. Stephen Weart",male,45,0,0,113784,35.5,T,S
-341,1,2,"Navratil, Master. Edmond Roger",male,2,1,1,230080,26,F2,S
-342,1,1,"Fortune, Miss. Alice Elizabeth",female,24,3,2,19950,263,C23 C25 C27,S
-343,0,2,"Collander, Mr. Erik Gustaf",male,28,0,0,248740,13,,S
-344,0,2,"Sedgwick, Mr. Charles Frederick Waddington",male,25,0,0,244361,13,,S
-345,0,2,"Fox, Mr. Stanley Hubert",male,36,0,0,229236,13,,S
-346,1,2,"Brown, Miss. Amelia ""Mildred""",female,24,0,0,248733,13,F33,S
-347,1,2,"Smith, Miss. Marion Elsie",female,40,0,0,31418,13,,S
-348,1,3,"Davison, Mrs. Thomas Henry (Mary E Finck)",female,,1,0,386525,16.1,,S
-349,1,3,"Coutts, Master. William Loch ""William""",male,3,1,1,C.A. 37671,15.9,,S
-350,0,3,"Dimic, Mr. Jovan",male,42,0,0,315088,8.6625,,S
-351,0,3,"Odahl, Mr. Nils Martin",male,23,0,0,7267,9.225,,S
-352,0,1,"Williams-Lambert, Mr. Fletcher Fellows",male,,0,0,113510,35,C128,S
-353,0,3,"Elias, Mr. Tannous",male,15,1,1,2695,7.2292,,C
-354,0,3,"Arnold-Franchi, Mr. Josef",male,25,1,0,349237,17.8,,S
-355,0,3,"Yousif, Mr. Wazli",male,,0,0,2647,7.225,,C
-356,0,3,"Vanden Steen, Mr. Leo Peter",male,28,0,0,345783,9.5,,S
-357,1,1,"Bowerman, Miss. Elsie Edith",female,22,0,1,113505,55,E33,S
-358,0,2,"Funk, Miss. Annie Clemmer",female,38,0,0,237671,13,,S
-359,1,3,"McGovern, Miss. Mary",female,,0,0,330931,7.8792,,Q
-360,1,3,"Mockler, Miss. Helen Mary ""Ellie""",female,,0,0,330980,7.8792,,Q
-361,0,3,"Skoog, Mr. Wilhelm",male,40,1,4,347088,27.9,,S
-362,0,2,"del Carlo, Mr. Sebastiano",male,29,1,0,SC/PARIS 2167,27.7208,,C
-363,0,3,"Barbara, Mrs. (Catherine David)",female,45,0,1,2691,14.4542,,C
-364,0,3,"Asim, Mr. Adola",male,35,0,0,SOTON/O.Q. 3101310,7.05,,S
-365,0,3,"O'Brien, Mr. Thomas",male,,1,0,370365,15.5,,Q
-366,0,3,"Adahl, Mr. Mauritz Nils Martin",male,30,0,0,C 7076,7.25,,S
-367,1,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",female,60,1,0,110813,75.25,D37,C
-368,1,3,"Moussa, Mrs. (Mantoura Boulos)",female,,0,0,2626,7.2292,,C
-369,1,3,"Jermyn, Miss. Annie",female,,0,0,14313,7.75,,Q
-370,1,1,"Aubart, Mme. Leontine Pauline",female,24,0,0,PC 17477,69.3,B35,C
-371,1,1,"Harder, Mr. George Achilles",male,25,1,0,11765,55.4417,E50,C
-372,0,3,"Wiklund, Mr. Jakob Alfred",male,18,1,0,3101267,6.4958,,S
-373,0,3,"Beavan, Mr. William Thomas",male,19,0,0,323951,8.05,,S
-374,0,1,"Ringhini, Mr. Sante",male,22,0,0,PC 17760,135.6333,,C
-375,0,3,"Palsson, Miss. Stina Viola",female,3,3,1,349909,21.075,,S
-376,1,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",female,,1,0,PC 17604,82.1708,,C
-377,1,3,"Landergren, Miss. Aurora Adelia",female,22,0,0,C 7077,7.25,,S
-378,0,1,"Widener, Mr. Harry Elkins",male,27,0,2,113503,211.5,C82,C
-379,0,3,"Betros, Mr. Tannous",male,20,0,0,2648,4.0125,,C
-380,0,3,"Gustafsson, Mr. Karl Gideon",male,19,0,0,347069,7.775,,S
-381,1,1,"Bidois, Miss. Rosalie",female,42,0,0,PC 17757,227.525,,C
-382,1,3,"Nakid, Miss. Maria (""Mary"")",female,1,0,2,2653,15.7417,,C
-383,0,3,"Tikkanen, Mr. Juho",male,32,0,0,STON/O 2. 3101293,7.925,,S
-384,1,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",female,35,1,0,113789,52,,S
-385,0,3,"Plotcharsky, Mr. Vasil",male,,0,0,349227,7.8958,,S
-386,0,2,"Davies, Mr. Charles Henry",male,18,0,0,S.O.C. 14879,73.5,,S
-387,0,3,"Goodwin, Master. Sidney Leonard",male,1,5,2,CA 2144,46.9,,S
-388,1,2,"Buss, Miss. Kate",female,36,0,0,27849,13,,S
-389,0,3,"Sadlier, Mr. Matthew",male,,0,0,367655,7.7292,,Q
-390,1,2,"Lehmann, Miss. Bertha",female,17,0,0,SC 1748,12,,C
-391,1,1,"Carter, Mr. William Ernest",male,36,1,2,113760,120,B96 B98,S
-392,1,3,"Jansson, Mr. Carl Olof",male,21,0,0,350034,7.7958,,S
-393,0,3,"Gustafsson, Mr. Johan Birger",male,28,2,0,3101277,7.925,,S
-394,1,1,"Newell, Miss. Marjorie",female,23,1,0,35273,113.275,D36,C
-395,1,3,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",female,24,0,2,PP 9549,16.7,G6,S
-396,0,3,"Johansson, Mr. Erik",male,22,0,0,350052,7.7958,,S
-397,0,3,"Olsson, Miss. Elina",female,31,0,0,350407,7.8542,,S
-398,0,2,"McKane, Mr. Peter David",male,46,0,0,28403,26,,S
-399,0,2,"Pain, Dr. Alfred",male,23,0,0,244278,10.5,,S
-400,1,2,"Trout, Mrs. William H (Jessie L)",female,28,0,0,240929,12.65,,S
-401,1,3,"Niskanen, Mr. Juha",male,39,0,0,STON/O 2. 3101289,7.925,,S
-402,0,3,"Adams, Mr. John",male,26,0,0,341826,8.05,,S
-403,0,3,"Jussila, Miss. Mari Aina",female,21,1,0,4137,9.825,,S
-404,0,3,"Hakkarainen, Mr. Pekka Pietari",male,28,1,0,STON/O2. 3101279,15.85,,S
-405,0,3,"Oreskovic, Miss. Marija",female,20,0,0,315096,8.6625,,S
-406,0,2,"Gale, Mr. Shadrach",male,34,1,0,28664,21,,S
-407,0,3,"Widegren, Mr. Carl/Charles Peter",male,51,0,0,347064,7.75,,S
-408,1,2,"Richards, Master. William Rowe",male,3,1,1,29106,18.75,,S
-409,0,3,"Birkeland, Mr. Hans Martin Monsen",male,21,0,0,312992,7.775,,S
-410,0,3,"Lefebre, Miss. Ida",female,,3,1,4133,25.4667,,S
-411,0,3,"Sdycoff, Mr. Todor",male,,0,0,349222,7.8958,,S
-412,0,3,"Hart, Mr. Henry",male,,0,0,394140,6.8583,,Q
-413,1,1,"Minahan, Miss. Daisy E",female,33,1,0,19928,90,C78,Q
-414,0,2,"Cunningham, Mr. Alfred Fleming",male,,0,0,239853,0,,S
-415,1,3,"Sundman, Mr. Johan Julian",male,44,0,0,STON/O 2. 3101269,7.925,,S
-416,0,3,"Meek, Mrs. Thomas (Annie Louise Rowley)",female,,0,0,343095,8.05,,S
-417,1,2,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",female,34,1,1,28220,32.5,,S
-418,1,2,"Silven, Miss. Lyyli Karoliina",female,18,0,2,250652,13,,S
-419,0,2,"Matthews, Mr. William John",male,30,0,0,28228,13,,S
-420,0,3,"Van Impe, Miss. Catharina",female,10,0,2,345773,24.15,,S
-421,0,3,"Gheorgheff, Mr. Stanio",male,,0,0,349254,7.8958,,C
-422,0,3,"Charters, Mr. David",male,21,0,0,A/5. 13032,7.7333,,Q
-423,0,3,"Zimmerman, Mr. Leo",male,29,0,0,315082,7.875,,S
-424,0,3,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",female,28,1,1,347080,14.4,,S
-425,0,3,"Rosblom, Mr. Viktor Richard",male,18,1,1,370129,20.2125,,S
-426,0,3,"Wiseman, Mr. Phillippe",male,,0,0,A/4. 34244,7.25,,S
-427,1,2,"Clarke, Mrs. Charles V (Ada Maria Winfield)",female,28,1,0,2003,26,,S
-428,1,2,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",female,19,0,0,250655,26,,S
-429,0,3,"Flynn, Mr. James",male,,0,0,364851,7.75,,Q
-430,1,3,"Pickard, Mr. Berk (Berk Trembisky)",male,32,0,0,SOTON/O.Q. 392078,8.05,E10,S
-431,1,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",male,28,0,0,110564,26.55,C52,S
-432,1,3,"Thorneycroft, Mrs. Percival (Florence Kate White)",female,,1,0,376564,16.1,,S
-433,1,2,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",female,42,1,0,SC/AH 3085,26,,S
-434,0,3,"Kallio, Mr. Nikolai Erland",male,17,0,0,STON/O 2. 3101274,7.125,,S
-435,0,1,"Silvey, Mr. William Baird",male,50,1,0,13507,55.9,E44,S
-436,1,1,"Carter, Miss. Lucile Polk",female,14,1,2,113760,120,B96 B98,S
-437,0,3,"Ford, Miss. Doolina Margaret ""Daisy""",female,21,2,2,W./C. 6608,34.375,,S
-438,1,2,"Richards, Mrs. Sidney (Emily Hocking)",female,24,2,3,29106,18.75,,S
-439,0,1,"Fortune, Mr. Mark",male,64,1,4,19950,263,C23 C25 C27,S
-440,0,2,"Kvillner, Mr. Johan Henrik Johannesson",male,31,0,0,C.A. 18723,10.5,,S
-441,1,2,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",female,45,1,1,F.C.C. 13529,26.25,,S
-442,0,3,"Hampe, Mr. Leon",male,20,0,0,345769,9.5,,S
-443,0,3,"Petterson, Mr. Johan Emil",male,25,1,0,347076,7.775,,S
-444,1,2,"Reynaldo, Ms. Encarnacion",female,28,0,0,230434,13,,S
-445,1,3,"Johannesen-Bratthammer, Mr. Bernt",male,,0,0,65306,8.1125,,S
-446,1,1,"Dodge, Master. Washington",male,4,0,2,33638,81.8583,A34,S
-447,1,2,"Mellinger, Miss. Madeleine Violet",female,13,0,1,250644,19.5,,S
-448,1,1,"Seward, Mr. Frederic Kimber",male,34,0,0,113794,26.55,,S
-449,1,3,"Baclini, Miss. Marie Catherine",female,5,2,1,2666,19.2583,,C
-450,1,1,"Peuchen, Major. Arthur Godfrey",male,52,0,0,113786,30.5,C104,S
-451,0,2,"West, Mr. Edwy Arthur",male,36,1,2,C.A. 34651,27.75,,S
-452,0,3,"Hagland, Mr. Ingvald Olai Olsen",male,,1,0,65303,19.9667,,S
-453,0,1,"Foreman, Mr. Benjamin Laventall",male,30,0,0,113051,27.75,C111,C
-454,1,1,"Goldenberg, Mr. Samuel L",male,49,1,0,17453,89.1042,C92,C
-455,0,3,"Peduzzi, Mr. Joseph",male,,0,0,A/5 2817,8.05,,S
-456,1,3,"Jalsevac, Mr. Ivan",male,29,0,0,349240,7.8958,,C
-457,0,1,"Millet, Mr. Francis Davis",male,65,0,0,13509,26.55,E38,S
-458,1,1,"Kenyon, Mrs. Frederick R (Marion)",female,,1,0,17464,51.8625,D21,S
-459,1,2,"Toomey, Miss. Ellen",female,50,0,0,F.C.C. 13531,10.5,,S
-460,0,3,"O'Connor, Mr. Maurice",male,,0,0,371060,7.75,,Q
-461,1,1,"Anderson, Mr. Harry",male,48,0,0,19952,26.55,E12,S
-462,0,3,"Morley, Mr. William",male,34,0,0,364506,8.05,,S
-463,0,1,"Gee, Mr. Arthur H",male,47,0,0,111320,38.5,E63,S
-464,0,2,"Milling, Mr. Jacob Christian",male,48,0,0,234360,13,,S
-465,0,3,"Maisner, Mr. Simon",male,,0,0,A/S 2816,8.05,,S
-466,0,3,"Goncalves, Mr. Manuel Estanslas",male,38,0,0,SOTON/O.Q. 3101306,7.05,,S
-467,0,2,"Campbell, Mr. William",male,,0,0,239853,0,,S
-468,0,1,"Smart, Mr. John Montgomery",male,56,0,0,113792,26.55,,S
-469,0,3,"Scanlan, Mr. James",male,,0,0,36209,7.725,,Q
-470,1,3,"Baclini, Miss. Helene Barbara",female,0.75,2,1,2666,19.2583,,C
-471,0,3,"Keefe, Mr. Arthur",male,,0,0,323592,7.25,,S
-472,0,3,"Cacic, Mr. Luka",male,38,0,0,315089,8.6625,,S
-473,1,2,"West, Mrs. Edwy Arthur (Ada Mary Worth)",female,33,1,2,C.A. 34651,27.75,,S
-474,1,2,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",female,23,0,0,SC/AH Basle 541,13.7917,D,C
-475,0,3,"Strandberg, Miss. Ida Sofia",female,22,0,0,7553,9.8375,,S
-476,0,1,"Clifford, Mr. George Quincy",male,,0,0,110465,52,A14,S
-477,0,2,"Renouf, Mr. Peter Henry",male,34,1,0,31027,21,,S
-478,0,3,"Braund, Mr. Lewis Richard",male,29,1,0,3460,7.0458,,S
-479,0,3,"Karlsson, Mr. Nils August",male,22,0,0,350060,7.5208,,S
-480,1,3,"Hirvonen, Miss. Hildur E",female,2,0,1,3101298,12.2875,,S
-481,0,3,"Goodwin, Master. Harold Victor",male,9,5,2,CA 2144,46.9,,S
-482,0,2,"Frost, Mr. Anthony Wood ""Archie""",male,,0,0,239854,0,,S
-483,0,3,"Rouse, Mr. Richard Henry",male,50,0,0,A/5 3594,8.05,,S
-484,1,3,"Turkula, Mrs. (Hedwig)",female,63,0,0,4134,9.5875,,S
-485,1,1,"Bishop, Mr. Dickinson H",male,25,1,0,11967,91.0792,B49,C
-486,0,3,"Lefebre, Miss. Jeannie",female,,3,1,4133,25.4667,,S
-487,1,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",female,35,1,0,19943,90,C93,S
-488,0,1,"Kent, Mr. Edward Austin",male,58,0,0,11771,29.7,B37,C
-489,0,3,"Somerton, Mr. Francis William",male,30,0,0,A.5. 18509,8.05,,S
-490,1,3,"Coutts, Master. Eden Leslie ""Neville""",male,9,1,1,C.A. 37671,15.9,,S
-491,0,3,"Hagland, Mr. Konrad Mathias Reiersen",male,,1,0,65304,19.9667,,S
-492,0,3,"Windelov, Mr. Einar",male,21,0,0,SOTON/OQ 3101317,7.25,,S
-493,0,1,"Molson, Mr. Harry Markland",male,55,0,0,113787,30.5,C30,S
-494,0,1,"Artagaveytia, Mr. Ramon",male,71,0,0,PC 17609,49.5042,,C
-495,0,3,"Stanley, Mr. Edward Roland",male,21,0,0,A/4 45380,8.05,,S
-496,0,3,"Yousseff, Mr. Gerious",male,,0,0,2627,14.4583,,C
-497,1,1,"Eustis, Miss. Elizabeth Mussey",female,54,1,0,36947,78.2667,D20,C
-498,0,3,"Shellard, Mr. Frederick William",male,,0,0,C.A. 6212,15.1,,S
-499,0,1,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",female,25,1,2,113781,151.55,C22 C26,S
-500,0,3,"Svensson, Mr. Olof",male,24,0,0,350035,7.7958,,S
-501,0,3,"Calic, Mr. Petar",male,17,0,0,315086,8.6625,,S
-502,0,3,"Canavan, Miss. Mary",female,21,0,0,364846,7.75,,Q
-503,0,3,"O'Sullivan, Miss. Bridget Mary",female,,0,0,330909,7.6292,,Q
-504,0,3,"Laitinen, Miss. Kristina Sofia",female,37,0,0,4135,9.5875,,S
-505,1,1,"Maioni, Miss. Roberta",female,16,0,0,110152,86.5,B79,S
-506,0,1,"Penasco y Castellana, Mr. Victor de Satode",male,18,1,0,PC 17758,108.9,C65,C
-507,1,2,"Quick, Mrs. Frederick Charles (Jane Richards)",female,33,0,2,26360,26,,S
-508,1,1,"Bradley, Mr. George (""George Arthur Brayton"")",male,,0,0,111427,26.55,,S
-509,0,3,"Olsen, Mr. Henry Margido",male,28,0,0,C 4001,22.525,,S
-510,1,3,"Lang, Mr. Fang",male,26,0,0,1601,56.4958,,S
-511,1,3,"Daly, Mr. Eugene Patrick",male,29,0,0,382651,7.75,,Q
-512,0,3,"Webber, Mr. James",male,,0,0,SOTON/OQ 3101316,8.05,,S
-513,1,1,"McGough, Mr. James Robert",male,36,0,0,PC 17473,26.2875,E25,S
-514,1,1,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",female,54,1,0,PC 17603,59.4,,C
-515,0,3,"Coleff, Mr. Satio",male,24,0,0,349209,7.4958,,S
-516,0,1,"Walker, Mr. William Anderson",male,47,0,0,36967,34.0208,D46,S
-517,1,2,"Lemore, Mrs. (Amelia Milley)",female,34,0,0,C.A. 34260,10.5,F33,S
-518,0,3,"Ryan, Mr. Patrick",male,,0,0,371110,24.15,,Q
-519,1,2,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",female,36,1,0,226875,26,,S
-520,0,3,"Pavlovic, Mr. Stefo",male,32,0,0,349242,7.8958,,S
-521,1,1,"Perreault, Miss. Anne",female,30,0,0,12749,93.5,B73,S
-522,0,3,"Vovk, Mr. Janko",male,22,0,0,349252,7.8958,,S
-523,0,3,"Lahoud, Mr. Sarkis",male,,0,0,2624,7.225,,C
-524,1,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",female,44,0,1,111361,57.9792,B18,C
-525,0,3,"Kassem, Mr. Fared",male,,0,0,2700,7.2292,,C
-526,0,3,"Farrell, Mr. James",male,40.5,0,0,367232,7.75,,Q
-527,1,2,"Ridsdale, Miss. Lucy",female,50,0,0,W./C. 14258,10.5,,S
-528,0,1,"Farthing, Mr. John",male,,0,0,PC 17483,221.7792,C95,S
-529,0,3,"Salonen, Mr. Johan Werner",male,39,0,0,3101296,7.925,,S
-530,0,2,"Hocking, Mr. Richard George",male,23,2,1,29104,11.5,,S
-531,1,2,"Quick, Miss. Phyllis May",female,2,1,1,26360,26,,S
-532,0,3,"Toufik, Mr. Nakli",male,,0,0,2641,7.2292,,C
-533,0,3,"Elias, Mr. Joseph Jr",male,17,1,1,2690,7.2292,,C
-534,1,3,"Peter, Mrs. Catherine (Catherine Rizk)",female,,0,2,2668,22.3583,,C
-535,0,3,"Cacic, Miss. Marija",female,30,0,0,315084,8.6625,,S
-536,1,2,"Hart, Miss. Eva Miriam",female,7,0,2,F.C.C. 13529,26.25,,S
-537,0,1,"Butt, Major. Archibald Willingham",male,45,0,0,113050,26.55,B38,S
-538,1,1,"LeRoy, Miss. Bertha",female,30,0,0,PC 17761,106.425,,C
-539,0,3,"Risien, Mr. Samuel Beard",male,,0,0,364498,14.5,,S
-540,1,1,"Frolicher, Miss. Hedwig Margaritha",female,22,0,2,13568,49.5,B39,C
-541,1,1,"Crosby, Miss. Harriet R",female,36,0,2,WE/P 5735,71,B22,S
-542,0,3,"Andersson, Miss. Ingeborg Constanzia",female,9,4,2,347082,31.275,,S
-543,0,3,"Andersson, Miss. Sigrid Elisabeth",female,11,4,2,347082,31.275,,S
-544,1,2,"Beane, Mr. Edward",male,32,1,0,2908,26,,S
-545,0,1,"Douglas, Mr. Walter Donald",male,50,1,0,PC 17761,106.425,C86,C
-546,0,1,"Nicholson, Mr. Arthur Ernest",male,64,0,0,693,26,,S
-547,1,2,"Beane, Mrs. Edward (Ethel Clarke)",female,19,1,0,2908,26,,S
-548,1,2,"Padro y Manent, Mr. Julian",male,,0,0,SC/PARIS 2146,13.8625,,C
-549,0,3,"Goldsmith, Mr. Frank John",male,33,1,1,363291,20.525,,S
-550,1,2,"Davies, Master. John Morgan Jr",male,8,1,1,C.A. 33112,36.75,,S
-551,1,1,"Thayer, Mr. John Borland Jr",male,17,0,2,17421,110.8833,C70,C
-552,0,2,"Sharp, Mr. Percival James R",male,27,0,0,244358,26,,S
-553,0,3,"O'Brien, Mr. Timothy",male,,0,0,330979,7.8292,,Q
-554,1,3,"Leeni, Mr. Fahim (""Philip Zenni"")",male,22,0,0,2620,7.225,,C
-555,1,3,"Ohman, Miss. Velin",female,22,0,0,347085,7.775,,S
-556,0,1,"Wright, Mr. George",male,62,0,0,113807,26.55,,S
-557,1,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",female,48,1,0,11755,39.6,A16,C
-558,0,1,"Robbins, Mr. Victor",male,,0,0,PC 17757,227.525,,C
-559,1,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",female,39,1,1,110413,79.65,E67,S
-560,1,3,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",female,36,1,0,345572,17.4,,S
-561,0,3,"Morrow, Mr. Thomas Rowan",male,,0,0,372622,7.75,,Q
-562,0,3,"Sivic, Mr. Husein",male,40,0,0,349251,7.8958,,S
-563,0,2,"Norman, Mr. Robert Douglas",male,28,0,0,218629,13.5,,S
-564,0,3,"Simmons, Mr. John",male,,0,0,SOTON/OQ 392082,8.05,,S
-565,0,3,"Meanwell, Miss. (Marion Ogden)",female,,0,0,SOTON/O.Q. 392087,8.05,,S
-566,0,3,"Davies, Mr. Alfred J",male,24,2,0,A/4 48871,24.15,,S
-567,0,3,"Stoytcheff, Mr. Ilia",male,19,0,0,349205,7.8958,,S
-568,0,3,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",female,29,0,4,349909,21.075,,S
-569,0,3,"Doharr, Mr. Tannous",male,,0,0,2686,7.2292,,C
-570,1,3,"Jonsson, Mr. Carl",male,32,0,0,350417,7.8542,,S
-571,1,2,"Harris, Mr. George",male,62,0,0,S.W./PP 752,10.5,,S
-572,1,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",female,53,2,0,11769,51.4792,C101,S
-573,1,1,"Flynn, Mr. John Irwin (""Irving"")",male,36,0,0,PC 17474,26.3875,E25,S
-574,1,3,"Kelly, Miss. Mary",female,,0,0,14312,7.75,,Q
-575,0,3,"Rush, Mr. Alfred George John",male,16,0,0,A/4. 20589,8.05,,S
-576,0,3,"Patchett, Mr. George",male,19,0,0,358585,14.5,,S
-577,1,2,"Garside, Miss. Ethel",female,34,0,0,243880,13,,S
-578,1,1,"Silvey, Mrs. William Baird (Alice Munger)",female,39,1,0,13507,55.9,E44,S
-579,0,3,"Caram, Mrs. Joseph (Maria Elias)",female,,1,0,2689,14.4583,,C
-580,1,3,"Jussila, Mr. Eiriik",male,32,0,0,STON/O 2. 3101286,7.925,,S
-581,1,2,"Christy, Miss. Julie Rachel",female,25,1,1,237789,30,,S
-582,1,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",female,39,1,1,17421,110.8833,C68,C
-583,0,2,"Downton, Mr. William James",male,54,0,0,28403,26,,S
-584,0,1,"Ross, Mr. John Hugo",male,36,0,0,13049,40.125,A10,C
-585,0,3,"Paulner, Mr. Uscher",male,,0,0,3411,8.7125,,C
-586,1,1,"Taussig, Miss. Ruth",female,18,0,2,110413,79.65,E68,S
-587,0,2,"Jarvis, Mr. John Denzil",male,47,0,0,237565,15,,S
-588,1,1,"Frolicher-Stehli, Mr. Maxmillian",male,60,1,1,13567,79.2,B41,C
-589,0,3,"Gilinski, Mr. Eliezer",male,22,0,0,14973,8.05,,S
-590,0,3,"Murdlin, Mr. Joseph",male,,0,0,A./5. 3235,8.05,,S
-591,0,3,"Rintamaki, Mr. Matti",male,35,0,0,STON/O 2. 3101273,7.125,,S
-592,1,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",female,52,1,0,36947,78.2667,D20,C
-593,0,3,"Elsbury, Mr. William James",male,47,0,0,A/5 3902,7.25,,S
-594,0,3,"Bourke, Miss. Mary",female,,0,2,364848,7.75,,Q
-595,0,2,"Chapman, Mr. John Henry",male,37,1,0,SC/AH 29037,26,,S
-596,0,3,"Van Impe, Mr. Jean Baptiste",male,36,1,1,345773,24.15,,S
-597,1,2,"Leitch, Miss. Jessie Wills",female,,0,0,248727,33,,S
-598,0,3,"Johnson, Mr. Alfred",male,49,0,0,LINE,0,,S
-599,0,3,"Boulos, Mr. Hanna",male,,0,0,2664,7.225,,C
-600,1,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",male,49,1,0,PC 17485,56.9292,A20,C
-601,1,2,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",female,24,2,1,243847,27,,S
-602,0,3,"Slabenoff, Mr. Petco",male,,0,0,349214,7.8958,,S
-603,0,1,"Harrington, Mr. Charles H",male,,0,0,113796,42.4,,S
-604,0,3,"Torber, Mr. Ernst William",male,44,0,0,364511,8.05,,S
-605,1,1,"Homer, Mr. Harry (""Mr E Haven"")",male,35,0,0,111426,26.55,,C
-606,0,3,"Lindell, Mr. Edvard Bengtsson",male,36,1,0,349910,15.55,,S
-607,0,3,"Karaic, Mr. Milan",male,30,0,0,349246,7.8958,,S
-608,1,1,"Daniel, Mr. Robert Williams",male,27,0,0,113804,30.5,,S
-609,1,2,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",female,22,1,2,SC/Paris 2123,41.5792,,C
-610,1,1,"Shutes, Miss. Elizabeth W",female,40,0,0,PC 17582,153.4625,C125,S
-611,0,3,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",female,39,1,5,347082,31.275,,S
-612,0,3,"Jardin, Mr. Jose Neto",male,,0,0,SOTON/O.Q. 3101305,7.05,,S
-613,1,3,"Murphy, Miss. Margaret Jane",female,,1,0,367230,15.5,,Q
-614,0,3,"Horgan, Mr. John",male,,0,0,370377,7.75,,Q
-615,0,3,"Brocklebank, Mr. William Alfred",male,35,0,0,364512,8.05,,S
-616,1,2,"Herman, Miss. Alice",female,24,1,2,220845,65,,S
-617,0,3,"Danbom, Mr. Ernst Gilbert",male,34,1,1,347080,14.4,,S
-618,0,3,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",female,26,1,0,A/5. 3336,16.1,,S
-619,1,2,"Becker, Miss. Marion Louise",female,4,2,1,230136,39,F4,S
-620,0,2,"Gavey, Mr. Lawrence",male,26,0,0,31028,10.5,,S
-621,0,3,"Yasbeck, Mr. Antoni",male,27,1,0,2659,14.4542,,C
-622,1,1,"Kimball, Mr. Edwin Nelson Jr",male,42,1,0,11753,52.5542,D19,S
-623,1,3,"Nakid, Mr. Sahid",male,20,1,1,2653,15.7417,,C
-624,0,3,"Hansen, Mr. Henry Damsgaard",male,21,0,0,350029,7.8542,,S
-625,0,3,"Bowen, Mr. David John ""Dai""",male,21,0,0,54636,16.1,,S
-626,0,1,"Sutton, Mr. Frederick",male,61,0,0,36963,32.3208,D50,S
-627,0,2,"Kirkland, Rev. Charles Leonard",male,57,0,0,219533,12.35,,Q
-628,1,1,"Longley, Miss. Gretchen Fiske",female,21,0,0,13502,77.9583,D9,S
-629,0,3,"Bostandyeff, Mr. Guentcho",male,26,0,0,349224,7.8958,,S
-630,0,3,"O'Connell, Mr. Patrick D",male,,0,0,334912,7.7333,,Q
-631,1,1,"Barkworth, Mr. Algernon Henry Wilson",male,80,0,0,27042,30,A23,S
-632,0,3,"Lundahl, Mr. Johan Svensson",male,51,0,0,347743,7.0542,,S
-633,1,1,"Stahelin-Maeglin, Dr. Max",male,32,0,0,13214,30.5,B50,C
-634,0,1,"Parr, Mr. William Henry Marsh",male,,0,0,112052,0,,S
-635,0,3,"Skoog, Miss. Mabel",female,9,3,2,347088,27.9,,S
-636,1,2,"Davis, Miss. Mary",female,28,0,0,237668,13,,S
-637,0,3,"Leinonen, Mr. Antti Gustaf",male,32,0,0,STON/O 2. 3101292,7.925,,S
-638,0,2,"Collyer, Mr. Harvey",male,31,1,1,C.A. 31921,26.25,,S
-639,0,3,"Panula, Mrs. Juha (Maria Emilia Ojala)",female,41,0,5,3101295,39.6875,,S
-640,0,3,"Thorneycroft, Mr. Percival",male,,1,0,376564,16.1,,S
-641,0,3,"Jensen, Mr. Hans Peder",male,20,0,0,350050,7.8542,,S
-642,1,1,"Sagesser, Mlle. Emma",female,24,0,0,PC 17477,69.3,B35,C
-643,0,3,"Skoog, Miss. Margit Elizabeth",female,2,3,2,347088,27.9,,S
-644,1,3,"Foo, Mr. Choong",male,,0,0,1601,56.4958,,S
-645,1,3,"Baclini, Miss. Eugenie",female,0.75,2,1,2666,19.2583,,C
-646,1,1,"Harper, Mr. Henry Sleeper",male,48,1,0,PC 17572,76.7292,D33,C
-647,0,3,"Cor, Mr. Liudevit",male,19,0,0,349231,7.8958,,S
-648,1,1,"Simonius-Blumer, Col. Oberst Alfons",male,56,0,0,13213,35.5,A26,C
-649,0,3,"Willey, Mr. Edward",male,,0,0,S.O./P.P. 751,7.55,,S
-650,1,3,"Stanley, Miss. Amy Zillah Elsie",female,23,0,0,CA. 2314,7.55,,S
-651,0,3,"Mitkoff, Mr. Mito",male,,0,0,349221,7.8958,,S
-652,1,2,"Doling, Miss. Elsie",female,18,0,1,231919,23,,S
-653,0,3,"Kalvik, Mr. Johannes Halvorsen",male,21,0,0,8475,8.4333,,S
-654,1,3,"O'Leary, Miss. Hanora ""Norah""",female,,0,0,330919,7.8292,,Q
-655,0,3,"Hegarty, Miss. Hanora ""Nora""",female,18,0,0,365226,6.75,,Q
-656,0,2,"Hickman, Mr. Leonard Mark",male,24,2,0,S.O.C. 14879,73.5,,S
-657,0,3,"Radeff, Mr. Alexander",male,,0,0,349223,7.8958,,S
-658,0,3,"Bourke, Mrs. John (Catherine)",female,32,1,1,364849,15.5,,Q
-659,0,2,"Eitemiller, Mr. George Floyd",male,23,0,0,29751,13,,S
-660,0,1,"Newell, Mr. Arthur Webster",male,58,0,2,35273,113.275,D48,C
-661,1,1,"Frauenthal, Dr. Henry William",male,50,2,0,PC 17611,133.65,,S
-662,0,3,"Badt, Mr. Mohamed",male,40,0,0,2623,7.225,,C
-663,0,1,"Colley, Mr. Edward Pomeroy",male,47,0,0,5727,25.5875,E58,S
-664,0,3,"Coleff, Mr. Peju",male,36,0,0,349210,7.4958,,S
-665,1,3,"Lindqvist, Mr. Eino William",male,20,1,0,STON/O 2. 3101285,7.925,,S
-666,0,2,"Hickman, Mr. Lewis",male,32,2,0,S.O.C. 14879,73.5,,S
-667,0,2,"Butler, Mr. Reginald Fenton",male,25,0,0,234686,13,,S
-668,0,3,"Rommetvedt, Mr. Knud Paust",male,,0,0,312993,7.775,,S
-669,0,3,"Cook, Mr. Jacob",male,43,0,0,A/5 3536,8.05,,S
-670,1,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",female,,1,0,19996,52,C126,S
-671,1,2,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",female,40,1,1,29750,39,,S
-672,0,1,"Davidson, Mr. Thornton",male,31,1,0,F.C. 12750,52,B71,S
-673,0,2,"Mitchell, Mr. Henry Michael",male,70,0,0,C.A. 24580,10.5,,S
-674,1,2,"Wilhelms, Mr. Charles",male,31,0,0,244270,13,,S
-675,0,2,"Watson, Mr. Ennis Hastings",male,,0,0,239856,0,,S
-676,0,3,"Edvardsson, Mr. Gustaf Hjalmar",male,18,0,0,349912,7.775,,S
-677,0,3,"Sawyer, Mr. Frederick Charles",male,24.5,0,0,342826,8.05,,S
-678,1,3,"Turja, Miss. Anna Sofia",female,18,0,0,4138,9.8417,,S
-679,0,3,"Goodwin, Mrs. Frederick (Augusta Tyler)",female,43,1,6,CA 2144,46.9,,S
-680,1,1,"Cardeza, Mr. Thomas Drake Martinez",male,36,0,1,PC 17755,512.3292,B51 B53 B55,C
-681,0,3,"Peters, Miss. Katie",female,,0,0,330935,8.1375,,Q
-682,1,1,"Hassab, Mr. Hammad",male,27,0,0,PC 17572,76.7292,D49,C
-683,0,3,"Olsvigen, Mr. Thor Anderson",male,20,0,0,6563,9.225,,S
-684,0,3,"Goodwin, Mr. Charles Edward",male,14,5,2,CA 2144,46.9,,S
-685,0,2,"Brown, Mr. Thomas William Solomon",male,60,1,1,29750,39,,S
-686,0,2,"Laroche, Mr. Joseph Philippe Lemercier",male,25,1,2,SC/Paris 2123,41.5792,,C
-687,0,3,"Panula, Mr. Jaako Arnold",male,14,4,1,3101295,39.6875,,S
-688,0,3,"Dakic, Mr. Branko",male,19,0,0,349228,10.1708,,S
-689,0,3,"Fischer, Mr. Eberhard Thelander",male,18,0,0,350036,7.7958,,S
-690,1,1,"Madill, Miss. Georgette Alexandra",female,15,0,1,24160,211.3375,B5,S
-691,1,1,"Dick, Mr. Albert Adrian",male,31,1,0,17474,57,B20,S
-692,1,3,"Karun, Miss. Manca",female,4,0,1,349256,13.4167,,C
-693,1,3,"Lam, Mr. Ali",male,,0,0,1601,56.4958,,S
-694,0,3,"Saad, Mr. Khalil",male,25,0,0,2672,7.225,,C
-695,0,1,"Weir, Col. John",male,60,0,0,113800,26.55,,S
-696,0,2,"Chapman, Mr. Charles Henry",male,52,0,0,248731,13.5,,S
-697,0,3,"Kelly, Mr. James",male,44,0,0,363592,8.05,,S
-698,1,3,"Mullens, Miss. Katherine ""Katie""",female,,0,0,35852,7.7333,,Q
-699,0,1,"Thayer, Mr. John Borland",male,49,1,1,17421,110.8833,C68,C
-700,0,3,"Humblen, Mr. Adolf Mathias Nicolai Olsen",male,42,0,0,348121,7.65,F G63,S
-701,1,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",female,18,1,0,PC 17757,227.525,C62 C64,C
-702,1,1,"Silverthorne, Mr. Spencer Victor",male,35,0,0,PC 17475,26.2875,E24,S
-703,0,3,"Barbara, Miss. Saiide",female,18,0,1,2691,14.4542,,C
-704,0,3,"Gallagher, Mr. Martin",male,25,0,0,36864,7.7417,,Q
-705,0,3,"Hansen, Mr. Henrik Juul",male,26,1,0,350025,7.8542,,S
-706,0,2,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",male,39,0,0,250655,26,,S
-707,1,2,"Kelly, Mrs. Florence ""Fannie""",female,45,0,0,223596,13.5,,S
-708,1,1,"Calderhead, Mr. Edward Pennington",male,42,0,0,PC 17476,26.2875,E24,S
-709,1,1,"Cleaver, Miss. Alice",female,22,0,0,113781,151.55,,S
-710,1,3,"Moubarek, Master. Halim Gonios (""William George"")",male,,1,1,2661,15.2458,,C
-711,1,1,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",female,24,0,0,PC 17482,49.5042,C90,C
-712,0,1,"Klaber, Mr. Herman",male,,0,0,113028,26.55,C124,S
-713,1,1,"Taylor, Mr. Elmer Zebley",male,48,1,0,19996,52,C126,S
-714,0,3,"Larsson, Mr. August Viktor",male,29,0,0,7545,9.4833,,S
-715,0,2,"Greenberg, Mr. Samuel",male,52,0,0,250647,13,,S
-716,0,3,"Soholt, Mr. Peter Andreas Lauritz Andersen",male,19,0,0,348124,7.65,F G73,S
-717,1,1,"Endres, Miss. Caroline Louise",female,38,0,0,PC 17757,227.525,C45,C
-718,1,2,"Troutt, Miss. Edwina Celia ""Winnie""",female,27,0,0,34218,10.5,E101,S
-719,0,3,"McEvoy, Mr. Michael",male,,0,0,36568,15.5,,Q
-720,0,3,"Johnson, Mr. Malkolm Joackim",male,33,0,0,347062,7.775,,S
-721,1,2,"Harper, Miss. Annie Jessie ""Nina""",female,6,0,1,248727,33,,S
-722,0,3,"Jensen, Mr. Svend Lauritz",male,17,1,0,350048,7.0542,,S
-723,0,2,"Gillespie, Mr. William Henry",male,34,0,0,12233,13,,S
-724,0,2,"Hodges, Mr. Henry Price",male,50,0,0,250643,13,,S
-725,1,1,"Chambers, Mr. Norman Campbell",male,27,1,0,113806,53.1,E8,S
-726,0,3,"Oreskovic, Mr. Luka",male,20,0,0,315094,8.6625,,S
-727,1,2,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",female,30,3,0,31027,21,,S
-728,1,3,"Mannion, Miss. Margareth",female,,0,0,36866,7.7375,,Q
-729,0,2,"Bryhl, Mr. Kurt Arnold Gottfrid",male,25,1,0,236853,26,,S
-730,0,3,"Ilmakangas, Miss. Pieta Sofia",female,25,1,0,STON/O2. 3101271,7.925,,S
-731,1,1,"Allen, Miss. Elisabeth Walton",female,29,0,0,24160,211.3375,B5,S
-732,0,3,"Hassan, Mr. Houssein G N",male,11,0,0,2699,18.7875,,C
-733,0,2,"Knight, Mr. Robert J",male,,0,0,239855,0,,S
-734,0,2,"Berriman, Mr. William John",male,23,0,0,28425,13,,S
-735,0,2,"Troupiansky, Mr. Moses Aaron",male,23,0,0,233639,13,,S
-736,0,3,"Williams, Mr. Leslie",male,28.5,0,0,54636,16.1,,S
-737,0,3,"Ford, Mrs. Edward (Margaret Ann Watson)",female,48,1,3,W./C. 6608,34.375,,S
-738,1,1,"Lesurer, Mr. Gustave J",male,35,0,0,PC 17755,512.3292,B101,C
-739,0,3,"Ivanoff, Mr. Kanio",male,,0,0,349201,7.8958,,S
-740,0,3,"Nankoff, Mr. Minko",male,,0,0,349218,7.8958,,S
-741,1,1,"Hawksford, Mr. Walter James",male,,0,0,16988,30,D45,S
-742,0,1,"Cavendish, Mr. Tyrell William",male,36,1,0,19877,78.85,C46,S
-743,1,1,"Ryerson, Miss. Susan Parker ""Suzette""",female,21,2,2,PC 17608,262.375,B57 B59 B63 B66,C
-744,0,3,"McNamee, Mr. Neal",male,24,1,0,376566,16.1,,S
-745,1,3,"Stranden, Mr. Juho",male,31,0,0,STON/O 2. 3101288,7.925,,S
-746,0,1,"Crosby, Capt. Edward Gifford",male,70,1,1,WE/P 5735,71,B22,S
-747,0,3,"Abbott, Mr. Rossmore Edward",male,16,1,1,C.A. 2673,20.25,,S
-748,1,2,"Sinkkonen, Miss. Anna",female,30,0,0,250648,13,,S
-749,0,1,"Marvin, Mr. Daniel Warner",male,19,1,0,113773,53.1,D30,S
-750,0,3,"Connaghton, Mr. Michael",male,31,0,0,335097,7.75,,Q
-751,1,2,"Wells, Miss. Joan",female,4,1,1,29103,23,,S
-752,1,3,"Moor, Master. Meier",male,6,0,1,392096,12.475,E121,S
-753,0,3,"Vande Velde, Mr. Johannes Joseph",male,33,0,0,345780,9.5,,S
-754,0,3,"Jonkoff, Mr. Lalio",male,23,0,0,349204,7.8958,,S
-755,1,2,"Herman, Mrs. Samuel (Jane Laver)",female,48,1,2,220845,65,,S
-756,1,2,"Hamalainen, Master. Viljo",male,0.67,1,1,250649,14.5,,S
-757,0,3,"Carlsson, Mr. August Sigfrid",male,28,0,0,350042,7.7958,,S
-758,0,2,"Bailey, Mr. Percy Andrew",male,18,0,0,29108,11.5,,S
-759,0,3,"Theobald, Mr. Thomas Leonard",male,34,0,0,363294,8.05,,S
-760,1,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",female,33,0,0,110152,86.5,B77,S
-761,0,3,"Garfirth, Mr. John",male,,0,0,358585,14.5,,S
-762,0,3,"Nirva, Mr. Iisakki Antino Aijo",male,41,0,0,SOTON/O2 3101272,7.125,,S
-763,1,3,"Barah, Mr. Hanna Assi",male,20,0,0,2663,7.2292,,C
-764,1,1,"Carter, Mrs. William Ernest (Lucile Polk)",female,36,1,2,113760,120,B96 B98,S
-765,0,3,"Eklund, Mr. Hans Linus",male,16,0,0,347074,7.775,,S
-766,1,1,"Hogeboom, Mrs. John C (Anna Andrews)",female,51,1,0,13502,77.9583,D11,S
-767,0,1,"Brewe, Dr. Arthur Jackson",male,,0,0,112379,39.6,,C
-768,0,3,"Mangan, Miss. Mary",female,30.5,0,0,364850,7.75,,Q
-769,0,3,"Moran, Mr. Daniel J",male,,1,0,371110,24.15,,Q
-770,0,3,"Gronnestad, Mr. Daniel Danielsen",male,32,0,0,8471,8.3625,,S
-771,0,3,"Lievens, Mr. Rene Aime",male,24,0,0,345781,9.5,,S
-772,0,3,"Jensen, Mr. Niels Peder",male,48,0,0,350047,7.8542,,S
-773,0,2,"Mack, Mrs. (Mary)",female,57,0,0,S.O./P.P. 3,10.5,E77,S
-774,0,3,"Elias, Mr. Dibo",male,,0,0,2674,7.225,,C
-775,1,2,"Hocking, Mrs. Elizabeth (Eliza Needs)",female,54,1,3,29105,23,,S
-776,0,3,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",male,18,0,0,347078,7.75,,S
-777,0,3,"Tobin, Mr. Roger",male,,0,0,383121,7.75,F38,Q
-778,1,3,"Emanuel, Miss. Virginia Ethel",female,5,0,0,364516,12.475,,S
-779,0,3,"Kilgannon, Mr. Thomas J",male,,0,0,36865,7.7375,,Q
-780,1,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",female,43,0,1,24160,211.3375,B3,S
-781,1,3,"Ayoub, Miss. Banoura",female,13,0,0,2687,7.2292,,C
-782,1,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",female,17,1,0,17474,57,B20,S
-783,0,1,"Long, Mr. Milton Clyde",male,29,0,0,113501,30,D6,S
-784,0,3,"Johnston, Mr. Andrew G",male,,1,2,W./C. 6607,23.45,,S
-785,0,3,"Ali, Mr. William",male,25,0,0,SOTON/O.Q. 3101312,7.05,,S
-786,0,3,"Harmer, Mr. Abraham (David Lishin)",male,25,0,0,374887,7.25,,S
-787,1,3,"Sjoblom, Miss. Anna Sofia",female,18,0,0,3101265,7.4958,,S
-788,0,3,"Rice, Master. George Hugh",male,8,4,1,382652,29.125,,Q
-789,1,3,"Dean, Master. Bertram Vere",male,1,1,2,C.A. 2315,20.575,,S
-790,0,1,"Guggenheim, Mr. Benjamin",male,46,0,0,PC 17593,79.2,B82 B84,C
-791,0,3,"Keane, Mr. Andrew ""Andy""",male,,0,0,12460,7.75,,Q
-792,0,2,"Gaskell, Mr. Alfred",male,16,0,0,239865,26,,S
-793,0,3,"Sage, Miss. Stella Anna",female,,8,2,CA. 2343,69.55,,S
-794,0,1,"Hoyt, Mr. William Fisher",male,,0,0,PC 17600,30.6958,,C
-795,0,3,"Dantcheff, Mr. Ristiu",male,25,0,0,349203,7.8958,,S
-796,0,2,"Otter, Mr. Richard",male,39,0,0,28213,13,,S
-797,1,1,"Leader, Dr. Alice (Farnham)",female,49,0,0,17465,25.9292,D17,S
-798,1,3,"Osman, Mrs. Mara",female,31,0,0,349244,8.6833,,S
-799,0,3,"Ibrahim Shawah, Mr. Yousseff",male,30,0,0,2685,7.2292,,C
-800,0,3,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",female,30,1,1,345773,24.15,,S
-801,0,2,"Ponesell, Mr. Martin",male,34,0,0,250647,13,,S
-802,1,2,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",female,31,1,1,C.A. 31921,26.25,,S
-803,1,1,"Carter, Master. William Thornton II",male,11,1,2,113760,120,B96 B98,S
-804,1,3,"Thomas, Master. Assad Alexander",male,0.42,0,1,2625,8.5167,,C
-805,1,3,"Hedman, Mr. Oskar Arvid",male,27,0,0,347089,6.975,,S
-806,0,3,"Johansson, Mr. Karl Johan",male,31,0,0,347063,7.775,,S
-807,0,1,"Andrews, Mr. Thomas Jr",male,39,0,0,112050,0,A36,S
-808,0,3,"Pettersson, Miss. Ellen Natalia",female,18,0,0,347087,7.775,,S
-809,0,2,"Meyer, Mr. August",male,39,0,0,248723,13,,S
-810,1,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",female,33,1,0,113806,53.1,E8,S
-811,0,3,"Alexander, Mr. William",male,26,0,0,3474,7.8875,,S
-812,0,3,"Lester, Mr. James",male,39,0,0,A/4 48871,24.15,,S
-813,0,2,"Slemen, Mr. Richard James",male,35,0,0,28206,10.5,,S
-814,0,3,"Andersson, Miss. Ebba Iris Alfrida",female,6,4,2,347082,31.275,,S
-815,0,3,"Tomlin, Mr. Ernest Portage",male,30.5,0,0,364499,8.05,,S
-816,0,1,"Fry, Mr. Richard",male,,0,0,112058,0,B102,S
-817,0,3,"Heininen, Miss. Wendla Maria",female,23,0,0,STON/O2. 3101290,7.925,,S
-818,0,2,"Mallet, Mr. Albert",male,31,1,1,S.C./PARIS 2079,37.0042,,C
-819,0,3,"Holm, Mr. John Fredrik Alexander",male,43,0,0,C 7075,6.45,,S
-820,0,3,"Skoog, Master. Karl Thorsten",male,10,3,2,347088,27.9,,S
-821,1,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",female,52,1,1,12749,93.5,B69,S
-822,1,3,"Lulic, Mr. Nikola",male,27,0,0,315098,8.6625,,S
-823,0,1,"Reuchlin, Jonkheer. John George",male,38,0,0,19972,0,,S
-824,1,3,"Moor, Mrs. (Beila)",female,27,0,1,392096,12.475,E121,S
-825,0,3,"Panula, Master. Urho Abraham",male,2,4,1,3101295,39.6875,,S
-826,0,3,"Flynn, Mr. John",male,,0,0,368323,6.95,,Q
-827,0,3,"Lam, Mr. Len",male,,0,0,1601,56.4958,,S
-828,1,2,"Mallet, Master. Andre",male,1,0,2,S.C./PARIS 2079,37.0042,,C
-829,1,3,"McCormack, Mr. Thomas Joseph",male,,0,0,367228,7.75,,Q
-830,1,1,"Stone, Mrs. George Nelson (Martha Evelyn)",female,62,0,0,113572,80,B28,
-831,1,3,"Yasbeck, Mrs. Antoni (Selini Alexander)",female,15,1,0,2659,14.4542,,C
-832,1,2,"Richards, Master. George Sibley",male,0.83,1,1,29106,18.75,,S
-833,0,3,"Saad, Mr. Amin",male,,0,0,2671,7.2292,,C
-834,0,3,"Augustsson, Mr. Albert",male,23,0,0,347468,7.8542,,S
-835,0,3,"Allum, Mr. Owen George",male,18,0,0,2223,8.3,,S
-836,1,1,"Compton, Miss. Sara Rebecca",female,39,1,1,PC 17756,83.1583,E49,C
-837,0,3,"Pasic, Mr. Jakob",male,21,0,0,315097,8.6625,,S
-838,0,3,"Sirota, Mr. Maurice",male,,0,0,392092,8.05,,S
-839,1,3,"Chip, Mr. Chang",male,32,0,0,1601,56.4958,,S
-840,1,1,"Marechal, Mr. Pierre",male,,0,0,11774,29.7,C47,C
-841,0,3,"Alhomaki, Mr. Ilmari Rudolf",male,20,0,0,SOTON/O2 3101287,7.925,,S
-842,0,2,"Mudd, Mr. Thomas Charles",male,16,0,0,S.O./P.P. 3,10.5,,S
-843,1,1,"Serepeca, Miss. Augusta",female,30,0,0,113798,31,,C
-844,0,3,"Lemberopolous, Mr. Peter L",male,34.5,0,0,2683,6.4375,,C
-845,0,3,"Culumovic, Mr. Jeso",male,17,0,0,315090,8.6625,,S
-846,0,3,"Abbing, Mr. Anthony",male,42,0,0,C.A. 5547,7.55,,S
-847,0,3,"Sage, Mr. Douglas Bullen",male,,8,2,CA. 2343,69.55,,S
-848,0,3,"Markoff, Mr. Marin",male,35,0,0,349213,7.8958,,C
-849,0,2,"Harper, Rev. John",male,28,0,1,248727,33,,S
-850,1,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",female,,1,0,17453,89.1042,C92,C
-851,0,3,"Andersson, Master. Sigvard Harald Elias",male,4,4,2,347082,31.275,,S
-852,0,3,"Svensson, Mr. Johan",male,74,0,0,347060,7.775,,S
-853,0,3,"Boulos, Miss. Nourelain",female,9,1,1,2678,15.2458,,C
-854,1,1,"Lines, Miss. Mary Conover",female,16,0,1,PC 17592,39.4,D28,S
-855,0,2,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",female,44,1,0,244252,26,,S
-856,1,3,"Aks, Mrs. Sam (Leah Rosen)",female,18,0,1,392091,9.35,,S
-857,1,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",female,45,1,1,36928,164.8667,,S
-858,1,1,"Daly, Mr. Peter Denis ",male,51,0,0,113055,26.55,E17,S
-859,1,3,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24,0,3,2666,19.2583,,C
-860,0,3,"Razi, Mr. Raihed",male,,0,0,2629,7.2292,,C
-861,0,3,"Hansen, Mr. Claus Peter",male,41,2,0,350026,14.1083,,S
-862,0,2,"Giles, Mr. Frederick Edward",male,21,1,0,28134,11.5,,S
-863,1,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",female,48,0,0,17466,25.9292,D17,S
-864,0,3,"Sage, Miss. Dorothy Edith ""Dolly""",female,,8,2,CA. 2343,69.55,,S
-865,0,2,"Gill, Mr. John William",male,24,0,0,233866,13,,S
-866,1,2,"Bystrom, Mrs. (Karolina)",female,42,0,0,236852,13,,S
-867,1,2,"Duran y More, Miss. Asuncion",female,27,1,0,SC/PARIS 2149,13.8583,,C
-868,0,1,"Roebling, Mr. Washington Augustus II",male,31,0,0,PC 17590,50.4958,A24,S
-869,0,3,"van Melkebeke, Mr. Philemon",male,,0,0,345777,9.5,,S
-870,1,3,"Johnson, Master. Harold Theodor",male,4,1,1,347742,11.1333,,S
-871,0,3,"Balkic, Mr. Cerin",male,26,0,0,349248,7.8958,,S
-872,1,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",female,47,1,1,11751,52.5542,D35,S
-873,0,1,"Carlsson, Mr. Frans Olof",male,33,0,0,695,5,B51 B53 B55,S
-874,0,3,"Vander Cruyssen, Mr. Victor",male,47,0,0,345765,9,,S
-875,1,2,"Abelson, Mrs. Samuel (Hannah Wizosky)",female,28,1,0,P/PP 3381,24,,C
-876,1,3,"Najib, Miss. Adele Kiamie ""Jane""",female,15,0,0,2667,7.225,,C
-877,0,3,"Gustafsson, Mr. Alfred Ossian",male,20,0,0,7534,9.8458,,S
-878,0,3,"Petroff, Mr. Nedelio",male,19,0,0,349212,7.8958,,S
-879,0,3,"Laleff, Mr. Kristo",male,,0,0,349217,7.8958,,S
-880,1,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",female,56,0,1,11767,83.1583,C50,C
-881,1,2,"Shelley, Mrs. William (Imanita Parrish Hall)",female,25,0,1,230433,26,,S
-882,0,3,"Markun, Mr. Johann",male,33,0,0,349257,7.8958,,S
-883,0,3,"Dahlberg, Miss. Gerda Ulrika",female,22,0,0,7552,10.5167,,S
-884,0,2,"Banfield, Mr. Frederick James",male,28,0,0,C.A./SOTON 34068,10.5,,S
-885,0,3,"Sutehall, Mr. Henry Jr",male,25,0,0,SOTON/OQ 392076,7.05,,S
-886,0,3,"Rice, Mrs. William (Margaret Norton)",female,39,0,5,382652,29.125,,Q
-887,0,2,"Montvila, Rev. Juozas",male,27,0,0,211536,13,,S
-888,1,1,"Graham, Miss. Margaret Edith",female,19,0,0,112053,30,B42,S
-889,0,3,"Johnston, Miss. Catherine Helen ""Carrie""",female,,1,2,W./C. 6607,23.45,,S
-890,1,1,"Behr, Mr. Karl Howell",male,26,0,0,111369,30,C148,C
-891,0,3,"Dooley, Mr. Patrick",male,32,0,0,370376,7.75,,Q
+S. No.,Message_body,Label
+1,Rofl. Its true to its name,Non-Spam
+2,The guy did some bitching but I acted like i'd be interested in buying something else next week and he gave it to us for free,Non-Spam
+3,"Pity, * was in mood for that. So...any other suggestions?",Non-Spam
+4,Will ü b going to esplanade fr home?,Non-Spam
+5,"This is the 2nd time we have tried 2 contact u. U have won the £750 Pound prize. 2 claim is easy, call 087187272008 NOW1! Only 10p per minute. BT-national-rate.",Spam
+6,"REMINDER FROM O2: To get 2.50 pounds free call credit and details of great offers pls reply 2 this text with your valid name, house no and postcode",Spam
+7,Huh y lei...,Non-Spam
+8,Why don't you wait 'til at least wednesday to see if you get your .,Non-Spam
+9,Ard 6 like dat lor.,Non-Spam
+10,Ok lor... Sony ericsson salesman... I ask shuhui then she say quite gd 2 use so i considering...,Non-Spam
+11,Get me out of this dump heap. My mom decided to come to lowes. BORING.,Non-Spam
+12,Anything lor. Juz both of us lor.,Non-Spam
+13,if you aren't here in the next  &lt;#&gt;  hours imma flip my shit,Non-Spam
+14,"Sorry, I'll call later",Non-Spam
+15,No. I meant the calculation is the same. That  &lt;#&gt; units at  &lt;#&gt; . This school is really expensive. Have you started practicing your accent. Because its important. And have you decided if you are doing 4years of dental school or if you'll just do the nmde exam.,Non-Spam
+16,Yes i have. So that's why u texted. Pshew...missing you so much,Non-Spam
+17,Yeh. Indians was nice. Tho it did kane me off a bit he he. We shud go out 4 a drink sometime soon. Mite hav 2 go 2 da works 4 a laugh soon. Love Pete x x,Non-Spam
+18,Well keep in mind I've only got enough gas for one more round trip barring a sudden influx of cash,Non-Spam
+19,Hahaha..use your brain dear,Non-Spam
+20,Have a safe trip to Nigeria. Wish you happiness and very soon company to share moments with,Non-Spam
+21,Wen did you get so spiritual and deep. That's great,Non-Spam
+22,"Cool, what time you think you can get here?",Non-Spam
+23,"You know, wot people wear. T shirts, jumpers, hat, belt, is all we know. We r at Cribbs",Non-Spam
+24,"No, I was trying it all weekend ;V",Non-Spam
+25,Ic. There are a lotta childporn cars then.,Non-Spam
+26,Hi its in durban are you still on this number,Non-Spam
+27,"I'm taking derek &amp; taylor to walmart, if I'm not back by the time you're done just leave the mouse on my desk and I'll text you when priscilla's ready",Non-Spam
+28,U still havent got urself a jacket ah?,Non-Spam
+29,Armand says get your ass over to epsilon,Non-Spam
+30,Yeah it's jus rite...,Non-Spam
+31,ASKED 3MOBILE IF 0870 CHATLINES INCLU IN FREE MINS. INDIA CUST SERVs SED YES. L8ER GOT MEGA BILL. 3 DONT GIV A SHIT. BAILIFF DUE IN DAYS. I O £250 3 WANT £800,Spam
+32,Just sleeping..and surfing,Non-Spam
+33,I can't believe how attached I am to seeing you every day. I know you will do the best you can to get to me babe. I will go to teach my class at your midnight,Non-Spam
+34,Want explicit SEX in 30 secs? Ring 02073162414 now! Costs 20p/min Gsex POBOX 2667 WC1N 3XX,Spam
+35,Aiyah ok wat as long as got improve can already wat...,Non-Spam
+36,"I know you are thinkin malaria. But relax, children cant handle malaria. She would have been worse and its gastroenteritis. If she takes enough to replace her loss her temp will reduce. And if you give her malaria meds now she will just vomit. Its a self limiting illness she has which means in a few days it will completely stop",Non-Spam
+37,Ok which your another number,Non-Spam
+38,"Hey chief, can you give me a bell when you get this. Need to talk to you about this royal visit on the 1st june. ",Non-Spam
+39,happened here while you were adventuring,Non-Spam
+40,Compliments to you. Was away from the system. How your side.,Non-Spam
+41,I think that tantrum's finished so yeah I'll be by at some point,Non-Spam
+42,What about this one then.,Non-Spam
+43,Its just the effect of irritation. Just ignore it,Non-Spam
+44,"Total disappointment, when I texted you was the craziest shit got :(",Non-Spam
+45,PRIVATE! Your 2003 Account Statement for shows 800 un-redeemed S.I.M. points. Call 08718738001 Identifier Code: 49557 Expires 26/11/04,Spam
+46,I want to tell you how bad I feel that basically the only times I text you lately are when I need drugs,Non-Spam
+47,You are awarded a SiPix Digital Camera! call 09061221061 from landline. Delivery within 28days. T Cs Box177. M221BP. 2yr warranty. 150ppm. 16 . p p£3.99,Spam
+48,Going to join tomorrow.,Non-Spam
+49,Thats cool. I want to please you...,Non-Spam
+50,You are a big chic. Common. Declare,Non-Spam
+51,No. I dont want to hear anything,Non-Spam
+52,Can you pls send me that company name. In saibaba colany,Non-Spam
+53,"By the way, i've put a skip right outside the front of the house so you can see which house it is. Just pull up before it.",Non-Spam
+54,Miles and smiles r made frm same letters but do u know d difference..? smile on ur face keeps me happy even though I am miles away from u.. :-)keep smiling.. Good nyt,Non-Spam
+55,"Ya, i'm referin to mei's ex wat... No ah, waitin 4 u to treat, somebody shld b rich liao...So gd, den u dun have to work frm tmr onwards...",Non-Spam
+56,You are a great role model. You are giving so much and i really wish each day for a miracle but God as a reason for everything and i must say i wish i knew why but i dont. I've looked up to you since i was young and i still do. Have a great day.,Non-Spam
+57,Oh... Okie lor...We go on sat... ,Non-Spam
+58,Yes. Please leave at  &lt;#&gt; . So that at  &lt;#&gt;  we can leave,Non-Spam
+59,"Just making dinner, you ?",Non-Spam
+60,"It‘s reassuring, in this crazy world.",Non-Spam
+61,I went to project centre,Non-Spam
+62,Lol they were mad at first but then they woke up and gave in.,Non-Spam
+63,"Machan you go to gym tomorrow,  i wil come late goodnight.",Non-Spam
+64,I want to be inside you every night...,Non-Spam
+65,God's love has no limit. God's grace has no measure. God's power has no boundaries. May u have God's endless blessings always in ur life...!! Gud ni8,Non-Spam
+66,What i told before i tell. Stupid hear after i wont tell anything to you. You dad called to my brother and spoken. Not with me.,Non-Spam
+67,Wait . I will msg after  &lt;#&gt;  min.,Non-Spam
+68,"Perhaps * is much easy give your account identification, so i will tomorrow at UNI",Non-Spam
+69,Apo all other are mokka players only,Non-Spam
+70,PRIVATE! Your 2003 Account Statement for 07808247860 shows 800 un-redeemed S. I. M. points. Call 08719899229 Identifier Code: 40411 Expires 06/11/04,Spam
+71,Love has one law; Make happy the person you love. In the same way friendship has one law; Never make ur friend feel alone until you are alive.... Gud night,Non-Spam
+72,Now get step 2 outta the way. Congrats again.,Non-Spam
+73,Why did I wake up on my own &gt;:(,Non-Spam
+74,"SMS SERVICES. for your inclusive text credits, pls goto www.comuk.net login= 3qxj9 unsubscribe with STOP, no extra charge. help 08702840625.COMUK. 220-CM2 9AE",Spam
+75,Yes... I trust u to buy new stuff ASAP so I can try it out,Non-Spam
+76,"Good afternoon, my love ... How goes your day ? How did you sleep ? I hope your well, my boytoy ... I think of you ...",Non-Spam
+77,"Cool, we shall go and see, have to go to tip anyway. Are you at home, got something to drop in later? So lets go to town tonight! Maybe mum can take us in.",Non-Spam
+78,I think if he rule tamilnadu..then its very tough for our people.,Non-Spam
+79,Marvel Mobile Play the official Ultimate Spider-man game (£4.50) on ur mobile right now. Text SPIDER to 83338 for the game & we ll send u a FREE 8Ball wallpaper,Spam
+80,U studying in sch or going home? Anyway i'll b going 2 sch later.,Non-Spam
+81,K. I will sent it again,Non-Spam
+82,Oh thanks a lot..i already bought 2 eggs ..,Non-Spam
+83,K. I will sent it again,Non-Spam
+84,2p per min to call Germany 08448350055 from your BT line. Just 2p per min. Check PlanetTalkInstant.com for info & T's & C's. Text stop to opt out,Spam
+85,Ofcourse I also upload some songs,Non-Spam
+86,Also fuck you and your family for going to rhode island or wherever the fuck and leaving me all alone the week I have a new bong &gt;:(,Non-Spam
+87,", ,  and  picking them up from various points | going 2 yeovil | and they will do the motor project 4 3 hours | and then u take them home. || 12 2 5.30 max. || Very easy",Non-Spam
+88,So li hai... Me bored now da lecturer repeating last weeks stuff waste time... ,Non-Spam
+89,URGENT We are trying to contact you Last weekends draw shows u have won a £1000 prize GUARANTEED Call 09064017295 Claim code K52 Valid 12hrs 150p pm,Spam
+90,Shall call now dear having food,Non-Spam
+91,Have you seen who's back at Holby?!,Non-Spam
+92,Really do hope the work doesnt get stressful. Have a gr8 day.,Non-Spam
+93,No probably  &lt;#&gt; %.,Non-Spam
+94,What Today-sunday..sunday is holiday..so no work..,Non-Spam
+95,Yes princess! I want to please you every night. Your wish is my command...,Non-Spam
+96,Dhoni have luck to win some big title.so we will win:),Non-Spam
+97,Where's mummy's boy ? Is he being good or bad ? Is he being positive or negative ? Why is mummy being made to wait? Hmmmm?,Non-Spam
+98,Ok lor ü reaching then message me.,Non-Spam
+99,Well obviously not because all the people in my cool college life went home ;_;,Non-Spam
+100,Yup,Non-Spam
+101,I thought slide is enough.,Non-Spam
+102,Ok lor.,Non-Spam
+103,"URGENT! Last weekend's draw shows that you have won £1000 cash or a Spanish holiday! CALL NOW 09050000332 to claim. T&C: RSTM, SW7 3SS. 150ppm",Spam
+104,Get your garden ready for summer with a FREE selection of summer bulbs and seeds worth £33:50 only with The Scotsman this Saturday. To stop go2 notxt.co.uk,Spam
+105,http//tms. widelive.com/index. wml?id=820554ad0a1705572711&first=true¡C C Ringtone¡,Spam
+106,Shall I bring us a bottle of wine to keep us amused? Only joking! I‘ll bring one anyway,Non-Spam
+107,I will treasure every moment we spend together...,Non-Spam
+108,U GOIN OUT 2NITE?,Non-Spam
+109,Txt: CALL to No: 86888 & claim your reward of 3 hours talk time to use from your phone now! Subscribe6GBP/mnth inc 3hrs 16 stop?txtStop www.gamb.tv,Spam
+110,Ok i thk i got it. Then u wan me 2 come now or wat?,Non-Spam
+111,December only! Had your mobile 11mths+? You are entitled to update to the latest colour camera mobile for Free! Call The Mobile Update Co FREE on 08002986906,Spam
+112,If you hear a loud scream in about &lt;#&gt; minutes its cause my Gyno will be shoving things up me that don't belong :/,Non-Spam
+113,"Sorry, I'll call later",Non-Spam
+114,Arun can u transfr me d amt,Non-Spam
+115,For the most sparkling shopping breaks from 45 per person; call 0121 2025050 or visit www.shortbreaks.org.uk,Spam
+116,Wishing you a beautiful day. Each moment revealing even more things to keep you smiling. Do enjoy it.,Non-Spam
+117,Im just wondering what your doing right now?,Non-Spam
+118,Except theres a chick with huge boobs.,Non-Spam
+119,What???? Hello wats talks email address?,Non-Spam
+120,Just sing HU. I think its also important to find someone female that know the place well preferably a citizen that is also smart to help you navigate through. Even things like choosing a phone plan require guidance. When in doubt ask especially girls.,Non-Spam
+121,Sac needs to carry on:),Non-Spam
+122,"Latest News! Police station toilet stolen, cops have nothing to go on!",Spam
+123,"aight we can pick some up, you open before tonight?",Non-Spam
+124,So that takes away some money worries,Non-Spam
+125,I am back. Good journey! Let me know if you need any of the receipts. Shall i tell you like the pendent?,Non-Spam
+126,"And that's fine, I got enough bud to last most of the night at least",Non-Spam
+127,Good morning. At the repair shop--the ONLY reason i'm up at this hour.,Non-Spam
+128,You have won a guaranteed 32000 award or maybe even £1000 cash to claim ur award call free on 0800 ..... (18+). Its a legitimat efreefone number wat do u think???,Spam
+129,"I thought i'd get him a watch, just cos thats the kind of thing u get4an18th. And he loves so much!",Non-Spam
+130,"By the way, make sure u get train to worc foregate street not shrub hill. Have fun night x",Non-Spam
+131,Thank you. do you generally date the brothas?,Non-Spam
+132,Hey i've booked the 2 lessons on sun liao...,Non-Spam
+133,What are youdoing later? Sar xxx,Non-Spam
+134,Am slow in using biola's fne,Non-Spam
+135,Mode men or have you left.,Non-Spam
+136,I'm wif him now buying tix lar...,Non-Spam
+137,Jesus armand really is trying to tell everybody he can find,Non-Spam
+138,You're gonna have to be way more specific than that,Non-Spam
+139,Thanx a lot 4 ur help!,Non-Spam
+140,If I was I wasn't paying attention,Non-Spam
+141,"If you can make it any time tonight or whenever you can it's cool, just text me whenever you're around",Non-Spam
+142,"Er yeah, i will b there at 15:26, sorry! Just tell me which pub/cafe to sit in and come wen u can",Non-Spam
+143,You didnt complete your gist oh.,Non-Spam
+144,Santa Calling! Would your little ones like a call from Santa Xmas eve? Call 09058094583 to book your time.,Spam
+145,Oh yeah! And my diet just flew out the window,Non-Spam
+146,Otherwise had part time job na-tuition..,Non-Spam
+147,U horrible gal... U knew dat i was going out wif him yest n u still come n ask me...,Non-Spam
+148,"Sorry, I'll call later",Non-Spam
+149,Ok k..sry i knw 2 siva..tats y i askd..,Non-Spam
+150,"Hi elaine, is today's meeting confirmed?",Non-Spam
+151,I dont know oh. Hopefully this month.,Non-Spam
+152,I'm at bruce &amp; fowler now but I'm in my mom's car so I can't park (long story),Non-Spam
+153,So how are you really. What are you up to. How's the masters. And so on.,Non-Spam
+154,Nope. I just forgot. Will show next week,Non-Spam
+155,My slave! I want you to take 2 or 3 pictures of yourself today in bright light on your cell phone! Bright light!,Non-Spam
+156,You should get more chicken broth if you want ramen unless there's some I don't know about,Non-Spam
+157,East coast,Non-Spam
+158,Nite nite pocay wocay luv u more than n e thing 4eva I promise ring u 2morrowxxxx,Non-Spam
+159,Gr8. So how do you handle the victoria island traffic. Plus when's the album due,Non-Spam
+160,I ask if u meeting da ge tmr nite...,Non-Spam
+161,"Daddy, shu shu is looking 4 u... U wan me 2 tell him u're not in singapore or wat?",Non-Spam
+162,There is a first time for everything :),Non-Spam
+163,... Are you in the pub?,Non-Spam
+164,Yup he msg me: is tat yijue? Then i tot it's my group mate cos we meeting today mah... I'm askin if ü leaving earlier or wat mah cos mayb ü haf to walk v far...,Non-Spam
+165,Dear are you angry i was busy dear,Non-Spam
+166,So how many days since then?,Non-Spam
+167,Pls give her prometazine syrup. 5mls then  &lt;#&gt; mins later feed.,Non-Spam
+168,So gd got free ice cream... I oso wan...,Non-Spam
+169,Hi babe its me thanks for coming even though it didnt go that well!i just wanted my bed! Hope to see you soon love and kisses xxx,Non-Spam
+170,Babes I think I got ur brolly I left it in English wil bring it in 2mrw 4 u luv Franxx,Non-Spam
+171,HARD BUT TRUE: How much you show &amp;  express your love to someone....that much it will hurt when they leave you or you get seperated...!?????ud evening...,Non-Spam
+172,And he's apparently bffs with carly quick now,Non-Spam
+173,Hi. Hope you had a good day. Have a better night.,Non-Spam
+174,That's necessarily respectful,Non-Spam
+175,As in i want custom officer discount oh.,Non-Spam
+176,Dunno lei shd b driving lor cos i go sch 1 hr oni.,Non-Spam
+177,I dont know exactly could you ask chechi.,Non-Spam
+178,"All done, all handed in. Don't know if mega shop in asda counts as celebration but thats what i'm doing!",Non-Spam
+179,Ooooooh I forgot to tell u I can get on yoville on my phone,Non-Spam
+180,Watching ajith film ah?,Non-Spam
+181,Nt joking seriously i told,Non-Spam
+182,Ok.ok ok..then..whats ur todays plan,Non-Spam
+183,NOT MUCH NO FIGHTS. IT WAS A GOOD NITE!!,Non-Spam
+184,I will be gentle baby! Soon you will be taking all  &lt;#&gt;  inches deep inside your tight pussy...,Non-Spam
+185,I'm at work. Please call,Non-Spam
+186,How do friends help us in problems? They give the most stupid suggestion that Lands us into another problem and helps us forgt the previous problem,Non-Spam
+187,How are you babes. Hope your doing ok. I had a shit nights sleep. I fell asleep at 5.I’m knackered and i’m dreading work tonight. What are thou upto tonight. X,Non-Spam
+188,Good day to You too.Pray for me.Remove the teeth as its painful maintaining other stuff.,Non-Spam
+189,"I can make it up there, squeezed  &lt;#&gt;  bucks out of my dad",Non-Spam
+190,You have 1 new message. Call 0207-083-6089,Spam
+191,Its sunny in california. The weather's just cool,Non-Spam
+192,Somebody set up a website where you can play hold em using eve online spacebucks,Non-Spam
+193,"Free entry to the gr8prizes wkly comp 4 a chance to win the latest Nokia 8800, PSP or £250 cash every wk.TXT GREAT to 80878 http//www.gr8prizes.com 08715705022",Spam
+194,The current leading bid is 151. To pause this auction send OUT. Customer Care: 08718726270,Spam
+195,I don't want you to leave. But i'm barely doing what i can to stay sane. fighting with you constantly isn't helping.,Non-Spam
+196,I cant pick the phone right now. Pls send a message,Non-Spam
+197,Do u konw waht is rael FRIENDSHIP Im gving yuo an exmpel: Jsut ese tihs msg.. Evrey splleing of tihs msg is wrnog.. Bt sitll yuo can raed it wihtuot ayn mitsake.. GOODNIGHT &amp; HAVE A NICE SLEEP..SWEET DREAMS..,Non-Spam
+198,"K I'll head out in a few mins, see you there",Non-Spam
+199,"Ok., is any problem to u frm him? Wats matter?",Non-Spam
+200,"Lol, oh you got a friend for the dog ?",Non-Spam
+201,dating:i have had two of these. Only started after i sent a text to talk sport radio last week. Any connection do you think or coincidence?,Spam
+202,Hi mom we might be back later than  &lt;#&gt; ,Non-Spam
+203,IMPORTANT MESSAGE. This is a final contact attempt. You have important messages waiting out our customer claims dept. Expires 13/4/04. Call 08717507382 NOW!,Spam
+204,Just trying to figure out when I'm suppose to see a couple different people this week. We said we'd get together but I didn't set dates,Non-Spam
+205,A £400 XMAS REWARD IS WAITING FOR YOU! Our computer has randomly picked you from our loyal mobile customers to receive a £400 reward. Just call 09066380611,Spam
+206,Call 09095350301 and send our girls into erotic ecstacy. Just 60p/min. To stop texts call 08712460324 (nat rate),Spam
+207,"I think your mentor is , but not 100 percent sure.",Non-Spam
+208,I'm in inside office..still filling forms.don know when they leave me.,Non-Spam
+209,Yep get with the program. You're slacking.,Non-Spam
+210,"Hey, iouri gave me your number, I'm wylie, ryan's friend",Non-Spam
+211,This is ur face test ( 1 2 3 4 5 6 7 8 9  &lt;#&gt;  ) select any number i will tell ur face astrology.... am waiting. quick reply...,Non-Spam
+212,Hmm. Shall i bring a bottle of wine to keep us amused? Just joking! I'll still bring a bottle. Red or white? See you tomorrow,Non-Spam
+213,Ok,Non-Spam
+214,Tell me something. Thats okay.,Non-Spam
+215,"Living is very simple.. Loving is also simple.. Laughing is too simple.. Winning is tooo simple.. But, Being 'SIMPLE' is very difficult...;-) :-)",Non-Spam
+216,Aiyo cos i sms ü then ü neva reply so i wait 4 ü to reply lar. I tot ü havent finish ur lab wat.,Non-Spam
+217,Guai... Ü shd haf seen him when he's naughty... Ü so free today? Can go jogging...,Non-Spam
+218,Good morning princess! Have a great day!,Non-Spam
+219,Yup it's at paragon... I havent decided whether 2 cut yet... Hee...,Non-Spam
+220,No one interested. May be some business plan.,Non-Spam
+221,I'm home...,Non-Spam
+222,Do I? I thought I put it back in the box,Non-Spam
+223,No sir. That's why i had an 8-hr trip on the bus last week. Have another audition next wednesday but i think i might drive this time.,Non-Spam
+224,"My Parents, My Kidz, My Friends n My Colleagues. All screaming.. SURPRISE !! and I was waiting on the sofa.. ... ..... ' NAKED...!",Non-Spam
+225,Wat ü doing now?,Non-Spam
+226,When you guys planning on coming over?,Non-Spam
+227,No go. No openings for that room 'til after thanksgiving without an upcharge.,Non-Spam
+228,"u r subscribed 2 TEXTCOMP 250 wkly comp. 1st wk?s free question follows, subsequent wks charged@150p/msg.2 unsubscribe txt STOP 2 84128,custcare 08712405020",Spam
+229,And of course you should make a stink!,Non-Spam
+230,Are u awake? Is there snow there?,Non-Spam
+231,You'd like that wouldn't you? Jerk!,Non-Spam
+232,So when do you wanna gym?,Non-Spam
+233,My birthday is on feb  &lt;#&gt;  da. .,Non-Spam
+234,Sounds better than my evening im just doing my costume. Im not sure what time i finish tomorrow but i will txt you at the end.,Non-Spam
+235,No. It's not pride. I'm almost  &lt;#&gt;  years old and shouldn't be takin money from my kid. You're not supposed to have to deal with this stuff. This is grownup stuff--why i don't tell you.,Non-Spam
+236,"Garbage bags, eggs, jam, bread, hannaford wheat chex",Non-Spam
+237,"Neither [in sterm voice] - i'm studying. All fine with me! Not sure the  thing will be resolved, tho. Anyway. Have a fab hols",Non-Spam
+238,I think steyn surely get one wicket:),Non-Spam
+239,X course it 2yrs. Just so her messages on messenger lik you r sending me,Non-Spam
+240,Dude im no longer a pisces. Im an aquarius now.,Non-Spam
+241,"Sir, waiting for your letter.",Non-Spam
+242,Sweet heart how are you?,Non-Spam
+243,Wishing you a wonderful week.,Non-Spam
+244,What makes you most happy?,Non-Spam
+245,"Gal n boy walking in d park. gal-can i hold ur hand? boy-y? do u think i would run away? gal-no, jst wana c how it feels walking in heaven with an prince..GN:-)",Non-Spam
+246,"Dear Sir,Salam Alaikkum.Pride and Pleasure meeting you today at the Tea Shop.We are pleased to send you our contact number at Qatar.Rakhesh an Indian.Pls save our Number.Respectful Regards.",Non-Spam
+247,Aah bless! How's your arm?,Non-Spam
+248,"Thanks, I'll keep that in mind",Non-Spam
+249,Ok no problem... Yup i'm going to sch at 4 if i rem correctly...,Non-Spam
+250,But we havent got da topic yet rite?,Non-Spam
+251,Kothi print out marandratha.,Non-Spam
+252,"Good morning, my Love ... I go to sleep now and wish you a great day full of feeling better and opportunity ... You are my last thought babe, I LOVE YOU *kiss*",Non-Spam
+253,"K, fyi I'm back in my parents' place in south tampa so I might need to do the deal somewhere else",Non-Spam
+254,Jus finish watching tv... U?,Non-Spam
+255,Hahaha..use your brain dear,Non-Spam
+256,Get the official ENGLAND poly ringtone or colour flag on yer mobile for tonights game! Text TONE or FLAG to 84199. Optout txt ENG STOP Box39822 W111WX £1.50,Spam
+257,My sister going to earn more than me da.,Non-Spam
+258,Here got ur favorite oyster... N got my favorite sashimi... Ok lar i dun say already... Wait ur stomach start rumbling...,Non-Spam
+259,K.k:)i'm going to tirunelvali this week to see my uncle ..i already spend the amount by taking dress .so only i want money.i will give it on feb 1,Non-Spam
+260,"yeah, that's what I was thinking",Non-Spam
+261,"Jolly good! By the way,  will give u tickets for sat eve 7.30. Speak before then x",Non-Spam
+262,I'm coming back on Thursday. Yay. Is it gonna be ok to get the money. Cheers. Oh yeah and how are you. Everything alright. Hows school. Or do you call it work now,Non-Spam
+263,What you did in  leave.,Non-Spam
+264,Ill be at yours in about 3 mins but look out for me,Non-Spam
+265,Hi missed your Call and my mumHas beendropping red wine all over theplace! what is your adress?,Non-Spam
+266,Pls ask macho how much is budget for bb bold 2 is cos i saw a new one for  &lt;#&gt;  dollars.,Non-Spam
+267,"I can. But it will tell quite long, cos i haven't finish my film yet...",Non-Spam
+268,About  &lt;#&gt; bucks. The banks fees are fixed. Better to call the bank and find out.,Non-Spam
+269,At WHAT TIME should i come tomorrow,Non-Spam
+270,I can't make it tonight,Non-Spam
+271,Well good morning mr . Hows london treatin' ya treacle?,Non-Spam
+272,I.ll hand her my phone to chat wit u,Non-Spam
+273,My darling sister. How are you doing. When's school resuming. Is there a minimum wait period before you reapply? Do take care,Non-Spam
+274,Are u coming to the funeral home,Non-Spam
+275,Alex says he's not ok with you not being ok with it,Non-Spam
+276,XMAS iscoming & ur awarded either £500 CD gift vouchers & free entry 2 r £100 weekly draw txt MUSIC to 87066 TnC www.Ldew.com1win150ppmx3age16subscription ,Spam
+277,I donno its in your genes or something,Non-Spam
+278,Urgent! Please call 09061213237 from landline. £5000 cash or a luxury 4* Canary Islands Holiday await collection. T&Cs SAE PO Box 177. M227XY. 150ppm. 16+,Spam
+279,Xy trying smth now. U eat already? We havent...,Non-Spam
+280,Dear where you. Call me,Non-Spam
+281,Hey! Congrats 2u2. id luv 2 but ive had 2 go home!,Non-Spam
+282,An excellent thought by a misundrstud frnd: I knw u hate me bt the day wen u'll knw the truth u'll hate urself:-( Gn:-),Non-Spam
+283,Hey ! Don't forget ... You are MINE ... For ME ... My possession ... MY property ... MMM ... *childish smile* ...,Non-Spam
+284,I'm still pretty weak today .. Bad day ?,Non-Spam
+285,"URGENT! You have won a 1 week FREE membership in our £100,000 Prize Jackpot! Txt the word: CLAIM to No: 81010 T&C www.dbuk.net LCCLTD POBOX 4403LDNW1A7RW18",Spam
+286,Sent me ur email id soon,Non-Spam
+287,"Yeah, probably here for a while",Non-Spam
+288,I have gone into get info bt dont know what to do,Non-Spam
+289,"And how you will do that, princess? :)",Non-Spam
+290,"Vikky, come around  &lt;TIME&gt; ..",Non-Spam
+291,"Helloooo... Wake up..! ""Sweet"" ""morning"" ""welcomes"" ""You"" ""Enjoy"" ""This Day"" ""with full of joy"".. ""GUD MRNG"".",Non-Spam
+292,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790126 from land line. Claim 3030. Valid 12hrs only 150ppm,Spam
+293,"Best msg: It's hard to be with a person, when u know that one more step foward will make u fall in love.. &amp; One step back can ruin ur friendship.. good night:-) ...",Non-Spam
+294,Dunno leh cant remember mayb lor. So wat time r we meeting tmr?,Non-Spam
+295,Oh yeah clearly it's my fault,Non-Spam
+296,"Hi. Hope ur day * good! Back from walk, table booked for half eight. Let me know when ur coming over.",Non-Spam
+297,Its too late:)but its k.wish you the same.,Non-Spam
+298,"Hello.How u doing?What u been up 2?When will u b moving out of the flat, cos I will need to arrange to pick up the lamp, etc. Take care. Hello caroline!",Non-Spam
+299,So u wan 2 come for our dinner tonight a not?,Non-Spam
+300,Did u fix the teeth?if not do it asap.ok take care.,Non-Spam
+301,"If you don't, your prize will go to another customer. T&C at www.t-c.biz 18+ 150p/min Polo Ltd Suite 373 London W1J 6HL Please call back if busy ",Spam
+302,"ER, ENJOYIN INDIANS AT THE MO..yeP. SaLL gOoD HehE ;> hows bout u shexy? Pete Xx",Non-Spam
+303,Anything lar then ü not going home 4 dinner?,Non-Spam
+304,HI DARLIN ITS KATE ARE U UP FOR DOIN SOMETHIN TONIGHT? IM GOING TO A PUB CALLED THE SWAN OR SOMETHING WITH MY PARENTS FOR ONE DRINK SO PHONE ME IF U CAN,Non-Spam
+305,Gud ni8.swt drms.take care,Non-Spam
+306,"Storming msg: Wen u lift d phne, u say ""HELLO"" Do u knw wt is d real meaning of HELLO?? . . . It's d name of a girl..! . . . Yes.. And u knw who is dat girl?? ""Margaret Hello"" She is d girlfrnd f Grahmbell who invnted telphone... . . . . Moral:One can 4get d name of a person, bt not his girlfrnd... G o o d n i g h t . . .@",Non-Spam
+307,Pls speak with me. I wont ask anything other then you friendship.,Non-Spam
+308,Did you see that film:),Non-Spam
+309,I absolutely LOVE South Park! I only recently started watching the office.,Non-Spam
+310,If anyone calls for a treadmill say you'll buy it. Make sure its working. I found an ad on Craigslist selling for $ &lt;#&gt; .,Non-Spam
+311,Can help u swoop by picking u up from wherever ur other birds r meeting if u want.,Non-Spam
+312,1 in cbe. 2 in chennai.,Non-Spam
+313,"As usual..iam fine, happy &amp; doing well..:)",Non-Spam
+314,Well she's in for a big surprise!,Non-Spam
+315,Ok... Sweet dreams...,Non-Spam
+316,I didnt get anything da,Non-Spam
+317,Please tell me not all of my car keys are in your purse,Non-Spam
+318,You do your studies alone without anyones help. If you cant no need to study.,Non-Spam
+319,"Yeah work is fine, started last week, all the same stuff as before, dull but easy and guys are fun!",Non-Spam
+320,Urgent! Please call 09061213237 from a landline. £5000 cash or a 4* holiday await collection. T &Cs SAE PO Box 177 M227XY. 16+,Spam
+321,"K I'm leaving soon, be there a little after 9",Non-Spam
+322,U come n search tat vid..not finishd..,Non-Spam
+323,Gud ni8 dear..slp well..take care..swt dreams..Muah..,Non-Spam
+324,Haven't eaten all day. I'm sitting here staring at this juicy pizza and I can't eat it. These meds are ruining my life.,Non-Spam
+325,Thank you princess! I want to see your nice juicy booty...,Non-Spam
+326,thanks for the temales it was wonderful. Thank. Have a great week.,Non-Spam
+327,Of course ! Don't tease me ... You know I simply must see ! *grins* ... Do keep me posted my prey ... *loving smile* *devouring kiss*,Non-Spam
+328,Hmm thinking lor...,Non-Spam
+329,Its a part of checking IQ,Non-Spam
+330,"Gud gud..k, chikku tke care.. sleep well gud nyt",Non-Spam
+331,"Jay wants to work out first, how's 4 sound?",Non-Spam
+332,Yeah I can still give you a ride,Non-Spam
+333,Someonone you know is trying to contact you via our dating service! To find out who it could be call from your mobile or landline 09064015307 BOX334SK38ch ,Spam
+334,Am on the uworld site. Am i buying the qbank only or am i buying it with the self assessment also?,Non-Spam
+335,Ok cool. See ya then.,Non-Spam
+336,Hey what how about your project. Started aha da.,Non-Spam
+337,YOU ARE CHOSEN TO RECEIVE A £350 AWARD! Pls call claim number 09066364311 to collect your award which you are selected to receive as a valued mobile customer.,Spam
+338,I realise you are a busy guy and i'm trying not to be a bother. I have to get some exams outta the way and then try the cars. Do have a gr8 day,Non-Spam
+339,"Nope, I'm still in the market",Non-Spam
+340,It means u could not keep ur words.,Non-Spam
+341,PRIVATE! Your 2003 Account Statement for <fone no> shows 800 un-redeemed S. I. M. points. Call 08715203656 Identifier Code: 42049 Expires 26/10/04,Spam
+342,I re-met alex nichols from middle school and it turns out he's dealing!,Non-Spam
+343,Prabha..i'm soryda..realy..frm heart i'm sory,Non-Spam
+344,Smile in Pleasure Smile in Pain Smile when trouble pours like Rain Smile when sum1 Hurts U Smile becoz SOMEONE still Loves to see u Smiling!!,Non-Spam
+345,OH FUCK. JUSWOKE UP IN A BED ON A BOATIN THE DOCKS. SLEPT WID 25 YEAR OLD. SPINOUT! GIV U DA GOSSIP L8R. XXX,Non-Spam
+346,If I die I want u to have all my stuffs.,Non-Spam
+347,5 nights...We nt staying at port step liao...Too ex,Non-Spam
+348,"Jane babes not goin 2 wrk, feel ill after lst nite. Foned in already cover 4 me chuck.:-)",Non-Spam
+349,I have to take exam with in march 3,Non-Spam
+350,Pls she needs to dat slowly or she will vomit more.,Non-Spam
+351,I accidentally brought em home in the box,Non-Spam
+352,Well thats nice. Too bad i cant eat it,Non-Spam
+353,I am late. I will be there at,Non-Spam
+354,I keep ten rs in my shelf:) buy two egg.,Non-Spam
+355,Natalja (25/F) is inviting you to be her friend. Reply YES-440 or NO-440 See her: www.SMS.ac/u/nat27081980 STOP? Send STOP FRND to 62468,Spam
+356,3 pa but not selected.,Non-Spam
+357,K.k.how is your business now?,Non-Spam
+358,It is only yesterday true true.,Non-Spam
+359,Dai i downloaded but there is only exe file which i can only run that exe after installing.,Non-Spam
+360,"I know you are thinkin malaria. But relax, children cant handle malaria. She would have been worse and its gastroenteritis. If she takes enough to replace her loss her temp will reduce. And if you give her malaria meds now she will just vomit. Its a self limiting illness she has which means in a few days it will completely stop",Non-Spam
+361,Hi.what you think about match?,Non-Spam
+362,"Babe, I'm answering you, can't you see me ? Maybe you'd better reboot YM ... I got the photo ... It's great !",Non-Spam
+363,I will reach ur home in  &lt;#&gt;  minutes,Non-Spam
+364,Had your mobile 11mths ? Update for FREE to Oranges latest colour camera mobiles & unlimited weekend calls. Call Mobile Upd8 on freefone 08000839402 or 2StopTxt,Spam
+365,How come she can get it? Should b quite diff to guess rite...,Non-Spam
+366,Me fine..absolutly fine,Non-Spam
+367,WOT STUDENT DISCOUNT CAN U GET ON BOOKS?,Non-Spam
+368,"YOU VE WON! Your 4* Costa Del Sol Holiday or £5000 await collection. Call 09050090044 Now toClaim. SAE, TC s, POBox334, Stockport, SK38xh, Cost£1.50/pm, Max10mins",Spam
+369,Call Germany for only 1 pence per minute! Call from a fixed line via access number 0844 861 85 85. No prepayment. Direct access! www.telediscount.co.uk,Spam
+370,Ugh my leg hurts. Musta overdid it on mon.,Non-Spam
+371,She.s fine. I have had difficulties with her phone. It works with mine. Can you pls send her another friend request.,Non-Spam
+372,I like cheap! But i‘m happy to splash out on the wine if it makes you feel better..,Non-Spam
+373,"Spook up your mob with a Halloween collection of a logo & pic message plus a free eerie tone, txt CARD SPOOK to 8007 zed 08701417012150p per logo/pic ",Spam
+374,Darren was saying dat if u meeting da ge den we dun meet 4 dinner. Cos later u leave xy will feel awkward. Den u meet him 4 lunch lor.,Non-Spam
+375,Ok... Take ur time n enjoy ur dinner...,Non-Spam
+376,"It's wylie, you in tampa or sarasota?",Non-Spam
+377,Oh oh... Den muz change plan liao... Go back have to yan jiu again...,Non-Spam
+378,"Sorry, I'll call later",Non-Spam
+379,Our records indicate u maybe entitled to 5000 pounds in compensation for the Accident you had. To claim 4 free reply with CLAIM to this msg. 2 stop txt STOP,Spam
+380,ree entry in 2 a weekly comp for a chance to win an ipod. Txt POD to 80182 to get entry (std txt rate) T&C's apply 08452810073 for details 18+,Spam
+381,Okie,Non-Spam
+382,WHAT TIME U WRKIN?,Non-Spam
+383,I uploaded mine to Facebook,Non-Spam
+384,I just cooked a rather nice salmon a la you,Non-Spam
+385,I'm in town now so i'll jus take mrt down later.,Non-Spam
+386,"Fuuuuck I need to stop sleepin, sup",Non-Spam
+387,I sent them. Do you like?,Non-Spam
+388,K sure am in my relatives home. Sms me de. Pls:-),Non-Spam
+389,"Babe! I fucking love you too !! You know? Fuck it was so good to hear your voice. I so need that. I crave it. I can't get enough. I adore you, Ahmad *kisses*",Non-Spam
+390,"Hi hope u r both ok, he said he would text and he hasn't, have u seen him, let me down gently please ",Non-Spam
+391,SMS AUCTION - A BRAND NEW Nokia 7250 is up 4 auction today! Auction is FREE 2 join & take part! Txt NOKIA to 86021 now!,Spam
+392,"Very strange.  and  are watching the 2nd one now but i'm in bed. Sweet dreams, miss u ",Non-Spam
+393,Company is very good.environment is terrific and food is really nice:),Non-Spam
+394,Raji..pls do me a favour. Pls convey my Birthday wishes to Nimya. Pls. Today is her birthday.,Non-Spam
+395,Water logging in desert. Geoenvironmental implications.,Non-Spam
+396,U 2.,Non-Spam
+397,"Aight, text me tonight and we'll see what's up",Non-Spam
+398,Oh k. . I will come tomorrow,Non-Spam
+399,I'm in school now n i'll be in da lab doing some stuff give me a call when ü r done.,Non-Spam
+400,Now i'm going for lunch.,Non-Spam
+401,"I‘ve got some salt, you can rub it in my open wounds if you like!",Non-Spam
+402,Oh did you charge camera,Non-Spam
+403,Y she dun believe leh? I tot i told her it's true already. I thk she muz c us tog then she believe.,Non-Spam
+404,Ü still got lessons?  Ü in sch?,Non-Spam
+405,"Congrats 2 mobile 3G Videophones R yours. call 09063458130 now! videochat wid ur mates, play java games, Dload polypH music, noline rentl. bx420. ip4. 5we. 150p",Spam
+406,Ok leave no need to ask,Non-Spam
+407,Just send a text. We'll skype later.,Non-Spam
+408,Lol no. I just need to cash in my nitros. Hurry come on before I crash out!,Non-Spam
+409,Ok... Then r we meeting later?,Non-Spam
+410,No but the bluray player can,Non-Spam
+411,I will come with karnan car. Please wait till 6pm will directly goto doctor.,Non-Spam
+412,K k:) sms chat with me.,Non-Spam
+413,"Sir, I need Velusamy sir's date of birth and company bank facilities details.",Non-Spam
+414,MY NEW YEARS EVE WAS OK. I WENT TO A PARTY WITH MY BOYFRIEND. WHO IS THIS SI THEN HEY,Non-Spam
+415,"Like  &lt;#&gt; , same question",Non-Spam
+416,Haven't left yet so probably gonna be here til dinner,Non-Spam
+417,Idk. I'm sitting here in a stop and shop parking lot right now bawling my eyes out because i feel like i'm a failure in everything. Nobody wants me and now i feel like i'm failing you.,Non-Spam
+418,No problem with the renewal. I.ll do it right away but i dont know his details.,Non-Spam
+419,"Happy new year to u and ur family...may this new year bring happiness , stability and tranquility to ur vibrant colourful life:):)",Non-Spam
+420,Pls call me da. What happen.,Non-Spam
+421,K..then come wenever u lik to come and also tel vikky to come by getting free time..:-),Non-Spam
+422,Get your garden ready for summer with a FREE selection of summer bulbs and seeds worth £33:50 only with The Scotsman this Saturday. To stop go2 notxt.co.uk,Spam
+423,Oh unintentionally not bad timing. Great. Fingers  the trains play along! Will give fifteen min warning.,Non-Spam
+424,Aiyar u so poor thing... I give u my support k... Jia you! I'll think of u...,Non-Spam
+425,I'm in office now da:)where are you?,Non-Spam
+426,Hi darlin im on helens fone im gonna b up the princes 2 nite please come up tb love Kate,Non-Spam
+427,Now that you have started dont stop. Just pray for more good ideas and anything i see that can help you guys i.ll forward you a link.,Non-Spam
+428,FREE for 1st week! No1 Nokia tone 4 ur mobile every week just txt NOKIA to 8077 Get txting and tell ur mates. www.getzed.co.uk POBox 36504 W45WQ 16+ norm150p/tone,Spam
+429,Yeah I imagine he would be really gentle. Unlike the other docs who treat their patients like turkeys.,Non-Spam
+430,Oh shut it. Omg yesterday I had a dream that I had 2 kids both boys. I was so pissed. Not only about the kids but them being boys. I even told mark in my dream that he was changing diapers cause I'm not getting owed in the face.,Non-Spam
+431,Yup... I havent been there before... You want to go for the yoga? I can call up to book ,Non-Spam
+432,"YOU VE WON! Your 4* Costa Del Sol Holiday or £5000 await collection. Call 09050090044 Now toClaim. SAE, TC s, POBox334, Stockport, SK38xh, Cost£1.50/pm, Max10mins",Spam
+433,There are some nice pubs near here or there is Frankie n Bennys near the warner cinema?,Non-Spam
+434,Sorry * was at the grocers.,Non-Spam
+435,Sday only joined.so training we started today:),Non-Spam
+436,"Hmm... Dunno leh, mayb a bag 4 goigng out dat is not too small. Or jus anything except perfume, smth dat i can keep.",Non-Spam
+437,it's still not working. And this time i also tried adding zeros. That was the savings. The checking is  &lt;#&gt; ,Non-Spam
+438,That sucks. I'll go over so u can do my hair. You'll do it free right?,Non-Spam
+439,Any way where are you and what doing.,Non-Spam
+440,"Rose for red,red for blood,blood for heart,heart for u. But u for me.... Send tis to all ur friends.. Including me.. If u like me.. If u get back, 1-u r poor in relation! 2-u need some 1 to support 3-u r frnd 2 many 4-some1 luvs u 5+- some1 is praying god to marry u.:-) try it....",Non-Spam
+441,Wot about on wed nite I am 3 then but only til 9!,Non-Spam
+442,Cuz ibored. And don wanna study,Non-Spam
+443,"To the wonderful Okors, have a great month. We cherish you guys and wish you well each day. MojiBiola",Non-Spam
+444,"After my work ah... Den 6 plus lor... U workin oso rite... Den go orchard lor, no other place to go liao...",Non-Spam
+445,"He is impossible to argue with and he always treats me like his sub, like he never released me ... Which he did and I will remind him of that if necessary",Non-Spam
+446,"Hi Chikku, send some nice msgs",Non-Spam
+447,NOT ENUFCREDEIT TOCALL.SHALL ILEAVE UNI AT 6 +GET A BUS TO YOR HOUSE?,Non-Spam
+448,"Oops I did have it,  &lt;#&gt; ?",Non-Spam
+449,PRIVATE! Your 2003 Account Statement for 078,Spam
+450,Lol for real. She told my dad I have cancer,Non-Spam
+451,Are you driving or training?,Non-Spam
+452,Aslamalaikkum....insha allah tohar beeen muht albi mufti mahfuuz...meaning same here....,Non-Spam
+453,Thanks. Fills me with complete calm and reassurance! ,Non-Spam
+454,"Get 3 Lions England tone, reply lionm 4 mono or lionp 4 poly. 4 more go 2 www.ringtones.co.uk, the original n best. Tones 3GBP network operator rates apply.",Spam
+455,Argh why the fuck is nobody in town ;_;,Non-Spam
+456,U definitely need a module from e humanities dis sem izzit? U wan 2 take other modules 1st?,Non-Spam
+457,December only! Had your mobile 11mths+? You are entitled to update to the latest colour camera mobile for Free! Call The Mobile Update VCo FREE on 08002986906 ,Spam
+458,I've reached sch already...,Non-Spam
+459,You have 1 new message. Please call 08715205273,Spam
+460,Oh you got many responsibilities.,Non-Spam
+461,"The sign of maturity is not when we start saying big things.. But actually it is, when we start understanding small things... *HAVE A NICE EVENING* BSLVYL",Non-Spam
+462,I REALLY NEED 2 KISS U I MISS U MY BABY FROM UR BABY 4EVA,Non-Spam
+463,Ding me on ya break fassyole! Blacko from londn,Non-Spam
+464,I wnt to buy a BMW car urgently..its vry urgent.but hv a shortage of  &lt;#&gt; Lacs.there is no source to arng dis amt. &lt;#&gt; lacs..thats my prob,Non-Spam
+465,"A Boy loved a gal. He propsd bt she didnt mind. He gv lv lttrs, Bt her frnds threw thm. Again d boy decided 2 aproach d gal , dt time a truck was speeding towards d gal. Wn it was about 2 hit d girl,d boy ran like hell n saved her. She asked 'hw cn u run so fast?' D boy replied ""Boost is d secret of my energy"" n instantly d girl shouted ""our energy"" n Thy lived happily 2gthr drinking boost evrydy Moral of d story:- I hv free msgs:D;): gud ni8",Non-Spam
+466,In other news after hassling me to get him weed for a week andres has no money. HAUGHAIGHGTUJHYGUJ,Non-Spam
+467,This msg is for your mobile content order It has been resent as previous attempt failed due to network error Queries to customersqueries@netvision.uk.com,Spam
+468,Nope thats fine. I might have a nap tho! ,Non-Spam
+469,"Aight, call me once you're close",Non-Spam
+470,"Ah, well that confuses things, doesnt it? I thought was friends with now. Maybe i did the wrong thing but i already sort of invited -tho he may not come cos of money.",Non-Spam
+471,"TheMob>Hit the link to get a premium Pink Panther game, the new no. 1 from Sugababes, a crazy Zebra animation or a badass Hoody wallpaper-all 4 FREE!",Spam
+472,Sorry about that this is my mates phone and i didnt write it love Kate,Non-Spam
+473,But i'm really really broke oh. No amount is too small even  &lt;#&gt; ,Non-Spam
+474,K.k.this month kotees birthday know?,Non-Spam
+475,"Hi Shanil,Rakhesh here.thanks,i have exchanged the uncut diamond stuff.leaving back. Excellent service by Dino and Prem.",Non-Spam
+476,Gokila is talking with you aha:),Non-Spam
+477,"My fri ah... Okie lor,goin 4 my drivin den go shoppin after tt...",Non-Spam
+478,No no. I will check all rooms befor activities,Non-Spam
+479,"St andre, virgil's cream",Non-Spam
+480,What type of stuff do you sing?,Non-Spam
+481,I wont do anything de.,Non-Spam
+482,"Good morning, im suffering from fever and dysentry ..will not be able to come to office today.",Non-Spam
+483,Omg if its not one thing its another. My cat has worms :/ when does this bad day end?,Non-Spam
+484,Sorry i missed your call. Can you please call back.,Non-Spam
+485,Hey happy birthday...,Non-Spam
+486,Aiya we discuss later lar... Pick ü up at 4 is it?,Non-Spam
+487,Amazing : If you rearrange these letters it gives the same meaning... Dormitory = Dirty room Astronomer = Moon starer The eyes = They see Election results = Lies lets recount Mother-in-law = Woman Hitler Eleven plus two =Twelve plus one Its Amazing... !:-),Non-Spam
+488,"Keep ur problems in ur heart, b'coz nobody will fight for u. Only u &amp; u have to fight for ur self &amp; win the battle. -VIVEKANAND- G 9t.. SD..
+ham	Yeah, give me a call if you've got a minute
+ham	HI BABE UAWAKE?FEELLIKW SHIT.JUSTFOUND OUT VIA ALETTER THATMUM GOTMARRIED 4thNOV.BEHIND OURBACKS – FUCKINNICE!SELFISH,DEVIOUSBITCH.ANYWAY,I’L CALL U""",Non-Spam
+489,Mark works tomorrow. He gets out at 5. His work is by your house so he can meet u afterwards.,Non-Spam
+490,Do you want a New Nokia 3510i colour phone DeliveredTomorrow? With 300 free minutes to any mobile + 100 free texts + Free Camcorder reply or call 08000930705.,Spam
+491,"Guy, no flash me now. If you go call me, call me. How madam. Take care oh.",Non-Spam
+492,"Well, i'm glad you didn't find it totally disagreeable ... Lol",Non-Spam
+493,"This is the 2nd attempt to contract U, you have won this weeks top prize of either £1000 cash or £200 prize. Just call 09066361921",Spam
+494,I want to sent  &lt;#&gt; mesages today. Thats y. Sorry if i hurts,Non-Spam
+495,Gud ni8 dear..slp well..take care..swt dreams..Muah..,Non-Spam
+496,WIN a £200 Shopping spree every WEEK Starting NOW. 2 play text STORE to 88039. SkilGme. TsCs08714740323 1Winawk! age16 £1.50perweeksub.,Spam
+497,As in different styles?,Non-Spam
+498,5p 4 alfie Moon's Children in need song on ur mob. Tell ur m8s. Txt Tone charity to 8007 for Nokias or Poly charity for polys: zed 08701417012 profit 2 charity.,Spam
+499,Hai dear friends... This is my new &amp; present number..:) By Rajitha Raj (Ranju),Non-Spam
+500,Talk to g and x about that,Non-Spam
+501,83039 62735=£450 UK Break AccommodationVouchers terms & conditions apply. 2 claim you mustprovide your claim number which is 15541 ,Spam
+502,I calls you later. Afternoon onwords mtnl service get problem in south mumbai. I can hear you but you cann't listen me.,Non-Spam
+503,But your brother transfered only  &lt;#&gt;  +  &lt;#&gt; . Pa.,Non-Spam
+504,I dunno lei... Like dun haf...,Non-Spam
+505,Ok i also wan 2 watch e 9 pm show...,Non-Spam
+506,Havent stuck at orchard in my dad's car. Going 4 dinner now. U leh? So r they free tonight?,Non-Spam
+507,"Sorry, I'll call you  later. I am in meeting sir.",Non-Spam
+508,I think i am disturbing her da,Non-Spam
+509,Free video camera phones with Half Price line rental for 12 mths and 500 cross ntwk mins 100 txts. Call MobileUpd8 08001950382 or Call2OptOut/674,Spam
+510,"Geeeee ... Your internet is really bad today, eh ?",Non-Spam
+511,Hey next sun 1030 there's a basic yoga course... at bugis... We can go for that... Pilates intro next sat.... Tell me what time you r free,Non-Spam
+512,Goodnight da thangam I really miss u dear.,Non-Spam
+513,Am on a train back from northampton so i'm afraid not! I'm staying skyving off today ho ho! Will be around wednesday though. Do you fancy the comedy club this week by the way?,Non-Spam
+514,Double Mins & Double Txt & 1/2 price Linerental on Latest Orange Bluetooth mobiles. Call MobileUpd8 for the very latest offers. 08000839402 or call2optout/LF56,Spam
+515,Lmao you know me so well...,Non-Spam
+516,"Tick, tick, tick .... Where are you ? I could die of loneliness you know ! *pouts* *stomps feet* I need you ...",Non-Spam
+517,With my sis lor... We juz watched italian job.,Non-Spam
+518,I will vote for wherever my heart guides me,Non-Spam
+519,Yeah so basically any time next week you can get away from your mom &amp; get up before 3,Non-Spam
+520,Hmmm.still we dont have opener?,Non-Spam
+521,Desires- u going to doctor 4 liver. And get a bit stylish. Get ur hair managed. Thats it.,Non-Spam
+522,"We have sent JD for Customer Service cum Accounts Executive to ur mail id, For details contact us",Non-Spam
+523,"Dunno, my dad said he coming home 2 bring us out 4 lunch. Yup i go w u lor. I call u when i reach school lor...",Non-Spam
+524,O ic lol. Should play 9 doors sometime yo,Non-Spam
+525,Jamster! To get your free wallpaper text HEART to 88888 now! T&C apply. 16 only. Need Help? Call 08701213186.,Spam
+526,She ran off with a younger man. we will make pretty babies together :),Non-Spam
+527,Natalie (20/F) is inviting you to be her friend. Reply YES-165 or NO-165 See her: www.SMS.ac/u/natalie2k9 STOP? Send STOP FRND to 62468,Spam
+528,Pls clarify back if an open return ticket that i have can be preponed for me to go back to kerala.,Non-Spam
+529,Thanks for being there for me just to talk to on saturday. You are very dear to me. I cherish having you as a brother and role model.,Non-Spam
+530,(You didn't hear it from me),Non-Spam
+531,You won't believe it but it's true. It's Incredible Txts! Reply G now to learn truly amazing things that will blow your mind. From O2FWD only 18p/txt,Spam
+532,How many times i told in the stage all use to laugh. You not listen aha.,Non-Spam
+533,I want to go to perumbavoor,Non-Spam
+534,"* Was really good to see you the other day dudette, been missing you!",Non-Spam
+535,Ok i vl..do u know i got adsense approved..,Non-Spam
+536,Hey... Very inconvenient for your sis a not huh?,Non-Spam
+537,Is there coming friday is leave for pongal?do you get any news from your work place.,Non-Spam
+538,I'd like to tell you my deepest darkest fantasies. Call me 09094646631 just 60p/min. To stop texts call 08712460324 (nat rate),Spam
+539,Go chase after her and run her over while she's crossing the street,Non-Spam
+540,PRIVATE! Your 2003 Account Statement for shows 800 un-redeemed S.I.M. points. Call 08715203685 Identifier Code:4xx26 Expires 13/10/04,Spam
+541,Ur cash-balance is currently 500 pounds - to maximize ur cash-in now send GO to 86688 only 150p/meg. CC: 08718720201 HG/Suite342/2lands Row/W1j6HL,Spam
+542,I was gonna ask you lol but i think its at 7,Non-Spam
+543,Where you. What happen,Non-Spam
+544,Anyway holla at me whenever you're around because I need an excuse to go creep on people in sarasota,Non-Spam
+545,Yes its possible but dint try. Pls dont tell to any one k,Non-Spam
+546,:-( sad puppy noise,Non-Spam
+547,"It's cool, we can last a little while. Getting more any time soon?",Non-Spam
+548,Great! How is the office today?,Non-Spam
+549,Babe ! What are you doing ? Where are you ? Who are you talking to ? Do you think of me ? Are you being a good boy? Are you missing me? Do you love me ?,Non-Spam
+550,Dear 0776xxxxxxx U've been invited to XCHAT. This is our final attempt to contact u! Txt CHAT to 86688 150p/MsgrcvdHG/Suite342/2Lands/Row/W1J6HL LDN 18yrs,Spam
+551,Hey gals...U all wanna meet 4 dinner at nìte? ,Non-Spam
+552,I think the other two still need to get cash but we can def be ready by 9,Non-Spam
+553,Hello boytoy ! Geeee ... I'm missing you today. I like to send you a tm and remind you I'm thinking of you ... And you are loved ... *loving kiss*,Non-Spam
+554,"Uncle G, just checking up on you. Do have a rewarding month",Non-Spam
+555,U attend ur driving lesson how many times a wk n which day?,Non-Spam
+556,You have WON a guaranteed £1000 cash or a £2000 prize. To claim yr prize call our customer service representative on 08714712412 between 10am-7pm Cost 10p,Spam
+557,"By the way, 'rencontre' is to meet again. Mountains dont....",Non-Spam
+558,"My mobile number.pls sms ur mail id.convey regards to achan,amma.Rakhesh.Qatar",Non-Spam
+559,Go fool dont cheat others ok,Non-Spam
+560,Oh k. . I will come tomorrow,Non-Spam
+561,ILL B DOWN SOON,Non-Spam
+562,Guess which pub im in? Im as happy as a pig in clover or whatever the saying is! ,Non-Spam
+563,There's someone here that has a year  &lt;#&gt;  toyota camry like mr olayiwola's own. Mileage is  &lt;#&gt; k.its clean but i need to know how much will it sell for. If i can raise the dough for it how soon after landing will it sell. Holla back.,Non-Spam
+564,CDs 4u: Congratulations ur awarded £500 of CD gift vouchers or £125 gift guaranteed & Freeentry 2 £100 wkly draw xt MUSIC to 87066 TnCs www.ldew.com1win150ppmx3age16 ,Spam
+565,You still around? Looking to pick up later,Non-Spam
+566,"Nope. Since ayo travelled, he has forgotten his guy",Non-Spam
+567,Well its not like you actually called someone a punto. That woulda been worse.,Non-Spam
+568,"Hmph. Go head, big baller.",Non-Spam
+569,Can you talk with me..,Non-Spam
+570,Esplanade lor. Where else...,Non-Spam
+571,Happy new year. Hope you are having a good semester,Non-Spam
+572,"Just looked it up and addie goes back Monday, sucks to be her",Non-Spam
+573,My drive can only be read. I need to write,Non-Spam
+574,"HEY KATE, HOPE UR OK... WILL GIVE U A BUZ WEDLUNCH. GO OUTSOMEWHERE 4 ADRINK IN TOWN..CUD GO 2WATERSHD 4 A BIT? PPL FROMWRK WILL BTHERE. LOVE PETEXXX.",Non-Spam
+575,I'm hungry buy smth home...,Non-Spam
+576,"We made it! Eta at taunton is 12:30 as planned, hope that‘s still okday?! Good to see you! :-xx",Non-Spam
+577,Phony £350 award - Todays Voda numbers ending XXXX are selected to receive a £350 award. If you have a match please call 08712300220 quoting claim code 3100 standard rates app,Spam
+578,So your telling me I coulda been your real Valentine and I wasn't? U never pick me for NOTHING!!,Non-Spam
+579,Which channel:-):-):):-).,Non-Spam
+580,No rushing. I'm not working. I'm in school so if we rush we go hungry.,Non-Spam
+581,That's y u haf 2 keep me busy...,Non-Spam
+582,Dont let studying stress you out. L8r.,Non-Spam
+583,goldviking (29/M) is inviting you to be his friend. Reply YES-762 or NO-762 See him: www.SMS.ac/u/goldviking STOP? Send STOP FRND to 62468,Spam
+584,Networking job is there.,Non-Spam
+585,Slept? I thinkThis time ( &lt;#&gt;  pm) is not dangerous,Non-Spam
+586,I said its okay. Sorry,Non-Spam
+587,So what u doing today?,Non-Spam
+588,Spending new years with my brother and his family. Lets plan to meet next week. Are you ready to be spoiled? :),Non-Spam
+589,JADE ITS PAUL. Y DIDN’T U TXT ME? DO U REMEMBER ME FROM BARMED? I WANT 2 TALK 2 U! TXT ME,Non-Spam
+590,"A boy was late 2 home. His father: ""POWER OF FRNDSHIP""",Non-Spam
+591,You are gorgeous! keep those pix cumming :) thank you!,Non-Spam
+592,Yar... I tot u knew dis would happen long ago already.,Non-Spam
+593,Aiyo u so poor thing... Then u dun wan 2 eat? U bathe already?,Non-Spam
+594,Oops I was in the shower when u called. Hey a parking garage collapsed at university hospital. See I'm not crazy. Stuff like that DOES happen.,Non-Spam
+595,I'm fine. Hope you are good. Do take care.,Non-Spam
+596,Hey come online! Use msn... We are all there,Non-Spam
+597,We are supposed to meet to discuss abt our trip... Thought xuhui told you? In the afternoon. Thought we can go for lesson after that,Non-Spam
+598,I will cme i want to go to hos 2morow. After that i wil cme. This what i got from her dear what to do. She didnt say any time,Non-Spam
+599,Future is not what we planned for tomorrow.....! it is the result of what we do today...! Do the best in present... enjoy the future.,Non-Spam
+600,You can donate £2.50 to UNICEF's Asian Tsunami disaster support fund by texting DONATE to 864233. £2.50 will be added to your next bill,Spam
+601,URGENT! We are trying to contact U. Todays draw shows that you have won a £2000 prize GUARANTEED. Call 09058094507 from land line. Claim 3030. Valid 12hrs only,Spam
+602,"A few people are at the game, I'm at the mall with iouri and kaila",Non-Spam
+603,Dear Voucher holder Have your next meal on us. Use the following link on your pc 2 enjoy a 2 4 1 dining experiencehttp://www.vouch4me.com/etlp/dining.asp,Spam
+604,I want to see your pretty pussy...,Non-Spam
+605,Yup ok...,Non-Spam
+606,"A bit of Ur smile is my hppnss, a drop of Ur tear is my sorrow, a part of Ur heart is my life, a heart like mine wil care for U, forevr as my GOODFRIEND",Non-Spam
+607,I want  &lt;#&gt;  rs da:)do you have it?,Non-Spam
+608,"What i mean was i left too early to check, cos i'm working a 9-6.",Non-Spam
+609,Why didn't u call on your lunch?,Non-Spam
+610,I'm vivek:)i got call from your number.,Non-Spam
+611,"Ahhhh...just woken up!had a bad dream about u tho,so i dont like u right now :) i didnt know anything about comedy night but i guess im up for it.",Non-Spam
+612,Doing my masters. When will you buy a bb cos i have for sale and how's bf,Non-Spam
+613,U coming back 4 dinner rite? Dad ask me so i re confirm wif u...,Non-Spam
+614,I lost 4 pounds since my doc visit last week woot woot! Now I'm gonna celebrate by stuffing my face!,Non-Spam
+615,"Welcome to Select, an O2 service with added benefits. You can now call our specially trained advisors FREE from your mobile by dialling 402.",Spam
+616,hi baby im sat on the bloody bus at the mo and i wont be home until about 7:30 wanna do somethin later? call me later ortxt back jess xx,Non-Spam
+617,Hi its me you are probably having too much fun to get this message but i thought id txt u cos im bored! and james has been farting at me all night,Non-Spam
+618,I am in bus on the way to calicut,Non-Spam
+619,"Hi this is Amy, we will be sending you a free phone number in a couple of days, which will give you an access to all the adult parties...",Spam
+620,Great News! Call FREEFONE 08006344447 to claim your guaranteed £1000 CASH or £2000 gift. Speak to a live operator NOW!,Spam
+621,I'm already back home so no probably not,Non-Spam
+622,"Anyway I don't think I can secure anything up here, lemme know if you want me to drive down south and chill",Non-Spam
+623,Wrong phone! This phone! I answer this one but assume the other is people i don't well,Non-Spam
+624,Check mail.i have mailed varma and kept copy to you regarding membership.take care.insha allah.,Non-Spam
+625,"I'm eatin now lor, but goin back to work soon... E mountain deer show huh... I watch b4 liao, very nice...",Non-Spam
+626,Omg you can make a wedding chapel in frontierville? Why do they get all the good stuff?,Non-Spam
+627,Ü go home liao? Ask dad to pick me up at 6...,Non-Spam
+628,Tomarrow i want to got to court. At  &lt;DECIMAL&gt; . So you come to bus stand at 9.,Non-Spam
+629,No it was cancelled yeah baby! Well that sounds important so i understand my darlin give me a ring later on this fone love Kate x,Non-Spam
+630,G wants to know where the fuck you are,Non-Spam
+631,K..k.:)congratulation ..,Non-Spam
+632,"Hey babe, how's it going ? Did you ever figure out where your going for New Years ?",Non-Spam
+633,Hey do you want anything to buy:),Non-Spam
+634,Once free call me sir.,Non-Spam
+635,Match started.india  &lt;#&gt;  for 2,Non-Spam
+636,"Good morning, my boytoy! How's those yummy lips ? Where's my sexy buns now ? What do you do ? Do you think of me ? Do you crave me ? Do you need me ?",Non-Spam
+637,"Hi, the SEXYCHAT girls are waiting for you to text them. Text now for a great night chatting. send STOP to stop this service",Spam
+638,"Got what it takes 2 take part in the WRC Rally in Oz? U can with Lucozade Energy! Text RALLY LE to 61200 (25p), see packs or lucozade.co.uk/wrc & itcould be u!",Spam
+639,Just hopeing that wasn‘t too pissed up to remember and has gone off to his sisters or something!,Non-Spam
+640,Wanna do some art?! :D,Non-Spam
+641,"Oh yes, why is it like torture watching england?",Non-Spam
+642,Ok... Let u noe when i leave my house.,Non-Spam
+643,We can go 4 e normal pilates after our intro...  ,Non-Spam
+644,Oh yah... We never cancel leh... Haha ,Non-Spam
+645,Hi Dear Call me its urgnt. I don't know whats your problem. You don't want to work or if you have any other problem at least tell me. Wating for your reply.,Non-Spam
+646,"Its so common hearin How r u? Wat r u doing? How was ur day? So let me ask u something different. Did u smile today? If not, do it now.... Gud evng.",Non-Spam
+647,"G says you never answer your texts, confirm/deny",Non-Spam
+648,Re your call; You didn't see my facebook huh?,Non-Spam
+649,Sitting in mu waiting for everyone to get out of my suite so I can take a shower,Non-Spam
+650,"This is the 2nd time we have tried 2 contact u. U have won the 750 Pound prize. 2 claim is easy, call 08712101358 NOW! Only 10p per min. BT-national-rate",Spam
+651,"Just dropped em off, omw back now",Non-Spam
+652,We took hooch for a walk toaday and i fell over! Splat! Grazed my knees and everything! Should have stayed at home! See you tomorrow! ,Non-Spam
+653,You've already got a flaky parent. It'snot supposed to be the child's job to support the parent...not until they're The Ride age anyway. I'm supposed to be there to support you. And now i've hurt you. unintentional. But hurt nonetheless.,Non-Spam
+654,"Goal! Arsenal 4 (Henry, 7 v Liverpool 2 Henry scores with a simple shot from 6 yards from a pass by Bergkamp to give Arsenal a 2 goal margin after 78 mins.",Spam
+655,I am on the way to tirupur.,Non-Spam
+656,Love that holiday Monday feeling even if I have to go to the dentists in an hour,Non-Spam
+657,WE REGRET TO INFORM U THAT THE NHS HAS MADE A MISTAKE.U WERE NEVER ACTUALLY BORN.PLEASE REPORT 2 YOR LOCAL HOSPITAL 2B TERMINATED.WE R SORRY 4 THE INCONVENIENCE,Non-Spam
+658,Will do. Have a good day,Non-Spam
+659,"I'm in solihull, | do you want anything?",Non-Spam
+660,Then anything special?,Non-Spam
+661,Will you come online today night,Non-Spam
+662,Warner Village 83118 C Colin Farrell in SWAT this wkend @Warner Village & get 1 free med. Popcorn!Just show msg+ticket@kiosk.Valid 4-7/12. C t&c @kiosk. Reply SONY 4 mre film offers,Spam
+663,"no, i *didn't* mean to post it. I wrote it, and like so many other times i've ritten stuff to you, i let it sit there. it WAS what i was feeling at the time. I was angry. Before i left, i hit send, then stop. It wasn't there. I checked on my phone when i got to my car. It wasn't there. You said you didn't sleep, you were bored. So why wouldn't THAT be the time to clean, fold laundry, etc.? At least make the bed?",Non-Spam
+664,I;m reaching in another 2 stops.,Non-Spam
+665,* FREE* POLYPHONIC RINGTONE Text SUPER to 87131 to get your FREE POLY TONE of the week now! 16 SN PoBox202 NR31 7ZS subscription 450pw,Spam
+666,Taka lor. Wat time u wan 2 come n look 4 us?,Non-Spam
+667,"ou are guaranteed the latest Nokia Phone, a 40GB iPod MP3 player or a £500 prize! Txt word: COLLECT to No: 83355! IBHltd LdnW15H 150p/Mtmsgrcvd18",Spam
+668,"Haha, that was the first person I was gonna ask",Non-Spam
+669,Oh for fuck's sake she's in like tallahassee,Non-Spam
+670,I cant pick the phone right now. Pls send a message,Non-Spam
+671,2 and half years i missed your friendship:-),Non-Spam
+672,Want the latest Video handset? 750 anytime any network mins? Half price line rental? Reply or call 08000930705 for delivery tomorrow,Spam
+673,Convey my regards to him,Non-Spam
+674,Send me the new number,Non-Spam
+675,Miserable. They don't tell u that the side effects of birth control are massive gut wrenching cramps for the first 2 months. I didn't sleep at all last night.,Non-Spam
+676,Its worse if if uses half way then stops. Its better for him to complete it.,Non-Spam
+677,Sounds like there could be a lot of time spent in that chastity device boy ... *grins* ... Or take your beatings like a good dog. Going to lounge in a nice long bath now ?,Non-Spam
+678,"Japanese Proverb: If one Can do it, U too Can do it, If none Can do it,U must do it Indian version: If one Can do it, LET HIM DO it.. If none Can do it,LEAVE it!! And finally Kerala version: If one can do it, Stop him doing it.. If none can do it, Make a strike against it ...",Non-Spam
+679,You have to pls make a note of all she.s exposed to. Also find out from her school if anyone else was vomiting. Is there a dog or cat in the house? Let me know later.,Non-Spam
+680,Todays Vodafone numbers ending with 4882 are selected to a receive a £350 award. If your number matches call 09064019014 to receive your £350 award.,Spam
+681,Or just do that 6times,Non-Spam
+682,Poor girl can't go one day lmao,Non-Spam
+683,For many things its an antibiotic and it can be used for chest abdomen and gynae infections even bone infections.,Non-Spam
+684,"New Theory: Argument wins d SITUATION, but loses the PERSON. So dont argue with ur friends just.. . . . kick them &amp; say, I'm always correct.!",Non-Spam
+685,As usual u can call me ard 10 smth.,Non-Spam
+686,When/where do I pick you up,Non-Spam
+687,alright tyler's got a minor crisis and has to be home sooner than he thought so be here asap,Non-Spam
+688,Yeah just open chat and click friend lists. Then make the list. Easy as pie,Non-Spam
+689,No 1 POLYPHONIC tone 4 ur mob every week! Just txt PT2 to 87575. 1st Tone FREE ! so get txtin now and tell ur friends. 150p/tone. 16 reply HL 4info,Spam
+690,The world's most happiest frnds never have the same characters... Dey just have the best understanding of their differences...,Non-Spam
+691,lyricalladie(21/F) is inviting you to be her friend. Reply YES-910 or NO-910. See her: www.SMS.ac/u/hmmross STOP? Send STOP FRND to 62468,Spam
+692,"I know dat feelin had it with Pete! Wuld get with em , nuther place nuther time mayb?",Non-Spam
+693,Wat happened to the cruise thing,Non-Spam
+694,Lol! Oops sorry! Have fun. ,Non-Spam
+695,Hi dis is yijue i would be happy to work wif ü all for gek1510...,Non-Spam
+696,Well. You know what i mean. Texting,Non-Spam
+697,Dip's cell dead. So i m coming with him. U better respond else we shall come back.,Non-Spam
+698,1. Tension face 2. Smiling face 3. Waste face 4. Innocent face 5.Terror face 6.Cruel face 7.Romantic face 8.Lovable face 9.decent face  &lt;#&gt; .joker face.,Non-Spam
+699,"Watching cartoon, listening music &amp; at eve had to go temple &amp; church.. What about u?",Non-Spam
+700,Okey dokey swashbuckling stuff what oh.,Non-Spam
+701,"Oh! Shit, I thought that was your trip! Loooooool ... That just makes SO much more sense now ... *grins* and the sofa reference was ... The ""sleep on a couch"" link you sent me ... Wasn't that how you went on your trip ? Oh ... And didn't your babe go with you for that celebration with your rents?",Non-Spam
+702,I'm really sorry I lit your hair on fire,Non-Spam
+703,Sorry da..today i wont come to play..i have driving clas..,Non-Spam
+704,Bored housewives! Chat n date now! 0871750.77.11! BT-national rate 10p/min only from landlines!,Spam
+705,**FREE MESSAGE**Thanks for using the Auction Subscription Service. 18 . 150p/MSGRCVD 2 Skip an Auction txt OUT. 2 Unsubscribe txt STOP CustomerCare 08718726270,Spam
+706,Nokia phone is lovly..,Non-Spam
+707,"Response is one of d powerful weapon 2 occupy a place in others 'HEART'... So, always give response 2 who cares 4 U""... Gud night..swt dreams..take care",Non-Spam
+708,"Hey, a guy I know is breathing down my neck to get him some bud, anyway you'd be able to get a half track to usf tonight?",Non-Spam
+709,Ok...,Non-Spam
+710,Thanks  and ! Or bomb and date as my phone wanted to say! ,Non-Spam
+711,yes baby! I need to stretch open your pussy!,Non-Spam
+712,Same to u...,Non-Spam
+713,"Also north carolina and texas atm, you would just go to the gre site and pay for the test results to be sent.",Non-Spam
+714,I'm fine. Hope you are also,Non-Spam
+715,I liked your new house,Non-Spam
+716,Gain the rights of a wife.dont demand it.i am trying as husband too.Lets see,Non-Spam
+717,Maybe you should find something else to do instead???,Non-Spam
+718,either way works for me. I am  &lt;#&gt;  years old. Hope that doesnt bother you.,Non-Spam
+719,S.this will increase the chance of winning.,Non-Spam
+720,I am in escape theatre now. . Going to watch KAVALAN in a few minutes,Non-Spam
+721,Pls help me tell Ashley that i cant find her number oh,Non-Spam
+722,Missing you too.pray inshah allah,Non-Spam
+723,YOU HAVE WON! As a valued Vodafone customer our computer has picked YOU to win a £150 prize. To collect is easy. Just call 09061743386 ,Spam
+724,I need details about that online job.,Non-Spam
+725,"Awesome, that gonna be soon or later tonight?",Non-Spam
+726,"Hmmm.... Mayb can try e shoppin area one, but forgot e name of hotel...",Non-Spam
+727,PRIVATE! Your 2003 Account Statement for shows 800 un-redeemed S. I. M. points. Call 08715203652 Identifier Code: 42810 Expires 29/10/0,Spam
+728,That's one of the issues but california is okay. No snow so its manageable,Non-Spam
+729,All boys made fun of me today. Ok i have no problem. I just sent one message just for fun,Non-Spam
+730,....photoshop makes my computer shut down.,Non-Spam
+731,Yay can't wait to party together!,Non-Spam
+732,"OH RITE. WELL IM WITH MY BEST MATE PETE, WHO I WENT OUT WITH 4 A WEEK+ NOW WERE 2GEVA AGAIN. ITS BEEN LONGER THAN A WEEK.",Non-Spam
+733,I hope your pee burns tonite.,Non-Spam
+734,"New Mobiles from 2004, MUST GO! Txt: NOKIA to No: 89545 & collect yours today! From ONLY £1. www.4-tc.biz 2optout 087187262701.50gbp/mtmsg18 TXTAUCTION.",Spam
+735,Rats. Hey did u ever vote for the next themes?,Non-Spam
+736,Po de :-):):-):-):-). No need job aha.,Non-Spam
+737,"The word ""Checkmate"" in chess comes from the Persian phrase ""Shah Maat"" which means; ""the king is dead.."" Goodmorning.. Have a good day..:)",Non-Spam
+738,"How long before you get reply, just defer admission til next semester",Non-Spam
+739,Lol no. Just trying to make your day a little more interesting,Non-Spam
+740,Yup but it's not giving me problems now so mayb i'll jus leave it...,Non-Spam
+741,"Haha, just what I was thinkin",Non-Spam
+742,I am going to sleep. I am tired of travel.,Non-Spam
+743,Not thought bout it... || Drink in tap & spile at seven. || Is that pub on gas st off broad st by canal. || Ok?,Non-Spam
+744,:-) :-),Non-Spam
+745,u r a winner U ave been specially selected 2 receive £1000 cash or a 4* holiday (flights inc) speak to a live operator 2 claim 0871277810710p/min (18 ),Spam
+746,Im good! I have been thinking about you...,Non-Spam
+747,Check Out Choose Your Babe Videos @ sms.shsex.netUN fgkslpoPW fgkslpo,Spam
+748,Got smaller capacity one? Quite ex...,Non-Spam
+749,How's ur paper?,Non-Spam
+750,Me too. Mark is taking forever to pick up my prescription and the pain is coming back.,Non-Spam
+751,Anything is valuable in only 2 situations: First- Before getting it... Second- After loosing it...,Non-Spam
+752,Ü no home work to do meh... ,Non-Spam
+753,Ummmmmaah Many many happy returns of d day my dear sweet heart.. HAPPY BIRTHDAY dear,Non-Spam
+754,i can call in  &lt;#&gt;  min if thats ok,Non-Spam
+755,"fyi I'm at usf now, swing by the room whenever",Non-Spam
+756,E admin building there? I might b slightly earlier... I'll call u when i'm reaching...,Non-Spam
+757,"Honey, can you pls find out how much they sell Predicte in Nigeria. And how many times can it be used. Its very important to have a reply before monday",Non-Spam
+758,"Don't worry though, I understand how important it is that I be put in my place with a poorly thought out punishment in the face of the worst thing that has ever happened to me. Brb gonna go kill myself",Non-Spam
+759,What's up my own oga. Left my phone at home and just saw ur messages. Hope you are good. Have a great weekend.,Non-Spam
+760,PRIVATE! Your 2004 Account Statement for 078498****7 shows 786 unredeemed Bonus Points. To claim call 08719180219 Identifier Code: 45239 Expires 06.05.05,Spam
+761,Call me when u finish then i come n pick u.,Non-Spam
+762,Sorry for the delay. Yes masters,Non-Spam
+763,"Er, hello, things didn‘t quite go to plan – is limping slowly home followed by aa and with exhaust hanging off",Non-Spam
+764,How do you plan to manage that,Non-Spam
+765,Reverse is cheating. That is not mathematics.,Non-Spam
+766,"The guy at the car shop who was flirting with me got my phone number from the paperwork and called and texted me. I'm nervous because of course now he may have my address. Should i call his boss and tell him, knowing this may get him fired?",Non-Spam
+767,"its cool but tyler had to take off so we're gonna buy for him and drop it off at his place later tonight. Our total order is a quarter, you got enough?",Non-Spam
+768,I dont know why she.s not getting your messages,Non-Spam
+769,Just come home. I don't want u to be miserable,Non-Spam
+770,Santa calling! Would your little ones like a call from Santa Xmas Eve? Call 09077818151 to book you time. Calls1.50ppm last 3mins 30s T&C www.santacalling.com,Spam
+771,URGENT This is our 2nd attempt to contact U. Your £900 prize from YESTERDAY is still awaiting collection. To claim CALL NOW 09061702893,Spam
+772,Saw Guys and Dolls last night with Patrick Swayze it was great,Non-Spam
+773,Sorry that was my uncle. I.ll keep in touch,Non-Spam
+774,Or u ask they all if next sat can a not. If all of them can make it then i'm ok lor.,Non-Spam
+775,Gd luck 4 ur exams :-),Non-Spam
+776,Send me your resume:-),Non-Spam
+777,Yup. Izzit still raining heavily cos i'm in e mrt i can't c outside.,Non-Spam
+778,We're on the opposite side from where we dropped you off,Non-Spam
+779,"Thanx. Yup we coming back on sun. Finish dinner going back 2 hotel now. Time flies, we're tog 4 exactly a mth today. Hope we'll haf many more mths to come...",Non-Spam
+780,Ü thk of wat to eat tonight.,Non-Spam
+781,Holy living christ what is taking you so long,Non-Spam
+782,"Urgent -call 09066649731from Landline. Your complimentary 4* Ibiza Holiday or £10,000 cash await collection SAE T&Cs PO BOX 434 SK3 8WP 150ppm 18+",Spam
+783,Indeed and by the way it was either or - not both !,Non-Spam
+784,"Especially since i talk about boston all up in my personal statement, lol! I woulda changed that if i had realized it said nyc! It says boston now.",Non-Spam
+785,"Call me, i am senthil from hsbc.",Non-Spam
+786,Yup... Hey then one day on fri we can ask miwa and jiayin take leave go karaoke ,Non-Spam
+787,Sen told that he is going to join his uncle finance in cbe,Non-Spam
+788,O we cant see if we can join denis and mina? Or does denis want alone time,Non-Spam
+789,U R THE MOST BEAUTIFUL GIRL IVE EVER SEEN. U R MY BABY COME AND C ME IN THE COMMON ROOM,Non-Spam
+790,Sorry completely forgot * will pop em round this week if your still here?,Non-Spam
+791,Quite lor. But dun tell him wait he get complacent...,Non-Spam
+792,"So many people seems to be special at first sight, But only very few will remain special to you till your last sight.. Maintain them till life ends.. Sh!jas",Non-Spam
+793,U repeat e instructions again. Wat's e road name of ur house?,Non-Spam
+794,Ok then u tell me wat time u coming later lor.,Non-Spam
+795,"Hi, Mobile no.  &lt;#&gt;  has added you in their contact list on www.fullonsms.com It s a great place to send free sms to people For more visit fullonsms.com",Non-Spam
+796,Hi..i got the money da:),Non-Spam
+797,CHEERS LOU! YEAH WAS A GOODNITE SHAME U NEVA CAME! C YA GAILxx,Non-Spam
+798,watever reLation u built up in dis world only thing which remains atlast iz lonlines with lotz n lot memories! feeling..,Non-Spam
+799,I'm not sure if its still available though,Non-Spam
+800,Your unique user ID is 1172. For removal send STOP to 87239 customer services 08708034412,Spam
+801,Whens your radio show?,Non-Spam
+802,if you text on your way to cup stop that should work. And that should be BUS,Non-Spam
+803,Hi.:)technical support.providing assistance to us customer through call and email:),Non-Spam
+804,Prepare to be pleasured :),Non-Spam
+805,Me too! Have a lovely night xxx,Non-Spam
+806,It's é only $140 ard...É rest all ard $180 at least...Which is é price 4 é 2 bedrm ($900),Non-Spam
+807,I'm home. Doc gave me pain meds says everything is fine.,Non-Spam
+808,Thanks 4 your continued support Your question this week will enter u in2 our draw 4 £100 cash. Name the NEW US President? txt ans to 80082,Spam
+809,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,Spam
+810,"hey, looks like I was wrong and one of the kappa guys numbers is still on my phone, if you want I can text him and see if he's around",Non-Spam
+811,Don't make life too stressfull.. Always find time to Laugh.. It may not add years to your Life! But surely adds more life to ur years!! Gud ni8..swt dreams..,Non-Spam
+812,U wan 2 haf lunch i'm in da canteen now.,Non-Spam
+813,Ok lor... Or u wan me go look 4 u?,Non-Spam
+814,Cashbin.co.uk (Get lots of cash this weekend!) www.cashbin.co.uk Dear Welcome to the weekend We have got our biggest and best EVER cash give away!! These..,Spam
+815,Well boy am I glad G wasted all night at applebees for nothing,Non-Spam
+816,Your weekly Cool-Mob tones are ready to download !This weeks new Tones include: 1) Crazy Frog-AXEL F>>> 2) Akon-Lonely>>> 3) Black Eyed-Dont P >>>More info in n,Spam
+817,"If you're still up, maybe leave the credit card so I can get gas when I get back like he told me to",Non-Spam
+818,Thanx u darlin!im cool thanx. A few bday drinks 2 nite. 2morrow off! Take care c u soon.xxx,Non-Spam
+819,The beauty of life is in next second.. which hides thousands of secrets. I wish every second will be wonderful in ur life...!! gud n8,Non-Spam
+820,"When you just put in the + sign, choose my number and the pin will show. Right?",Non-Spam
+821,Orh i tot u say she now still dun believe.,Non-Spam
+822,Camera - You are awarded a SiPix Digital Camera! call 09061221066 fromm landline. Delivery within 28 days.,Spam
+823,Thinking of u ;) x,Non-Spam
+824,I am in hospital da. . I will return home in evening,Non-Spam
+825,Ya very nice. . .be ready on thursday,Non-Spam
+826,Many more happy returns of the day. I wish you happy birthday.,Non-Spam
+827,"I keep seeing weird shit and bein all ""woah"" then realising it's actually reasonable and I'm all ""oh""",Non-Spam
+828,We have pizza if u want,Non-Spam
+829,I bought the test yesterday. Its something that lets you know the exact day u ovulate.when will get 2u in about 2 to 3wks. But pls pls dont fret. I know u r worried. Pls relax. Also is there anything in ur past history u need to tell me?,Non-Spam
+830,"Nt only for driving even for many reasons she is called BBD..thts it chikku, then hw abt dvg cold..heard tht vinobanagar violence hw is the condition..and hw ru ? Any problem?",Non-Spam
+831,"Not for possession, especially not first offense",Non-Spam
+832,Oh k:)after that placement there ah?,Non-Spam
+833,Buy Space Invaders 4 a chance 2 win orig Arcade Game console. Press 0 for Games Arcade (std WAP charge) See o2.co.uk/games 4 Terms + settings. No purchase,Spam
+834,Good Morning my Dear Shijutta........... Have a great &amp; successful day.,Non-Spam
+835,Wat time r ü going to xin's hostel?,Non-Spam
+836,K:)eng rocking in ashes:),Non-Spam
+837,I dont know ask to my brother. Nothing problem some thing that. Just i told .,Non-Spam
+838,I've reached already.,Non-Spam
+839,I (Career Tel) have added u as a contact on INDYAROCKS.COM to send FREE SMS. To remove from phonebook - sms NO to  &lt;#&gt;,Non-Spam
+840,"Had your mobile 10 mths? Update to the latest Camera/Video phones for FREE. KEEP UR SAME NUMBER, Get extra free mins/texts. Text YES for a call",Spam
+841,Jason says it's cool if we pick some up from his place in like an hour,Non-Spam
+842,"There'll be a minor shindig at my place later tonight, you interested?",Non-Spam
+843,"FREE GAME. Get Rayman Golf 4 FREE from the O2 Games Arcade. 1st get UR games settings. Reply POST, then save & activ8. Press 0 key for Arcade. Termsapply",Spam
+844,HELLO PEACH! MY CAKE TASTS LUSH!,Non-Spam
+845,"I'm home, my love ... If your still awake ... *loving kiss*",Non-Spam
+846,"Yup. Anything lor, if u dun wan it's ok...",Non-Spam
+847,Forgot to tell ü smth.. Can ü like number the sections so that it's clearer..,Non-Spam
+848,"Aiyo... Her lesson so early... I'm still sleepin, haha... Okie, u go home liao den confirm w me lor...",Non-Spam
+849,My uncles in Atlanta. Wish you guys a great semester.,Non-Spam
+850,"K will do, addie &amp; I are doing some art so I'll be here when you get home",Non-Spam
+851,"Hey. What happened? U switch off ur cell d whole day. This isnt good. Now if u do care, give me a call tomorrow.",Non-Spam
+852,S:)8 min to go for lunch:),Non-Spam
+853,Oops i thk i dun haf enuff... I go check then tell ü..,Non-Spam
+854,Big brother‘s really scraped the barrel with this shower of social misfits,Non-Spam
+855,Thats cool princess! I will cover your face in hot sticky cum :),Non-Spam
+856,Huh so slow i tot u reach long ago liao... U 2 more days only i 4 more leh...,Non-Spam
+857,Ya i knw u vl giv..its ok thanks kano..anyway enjoy wit ur family wit 1st salary..:-);-),Non-Spam
+858,"Haha awesome, I might need to take you up on that, what you doin tonight?",Non-Spam
+859,"Did you say bold, then torch later. Or one torch and 2bold?",Non-Spam
+860,Wif my family booking tour package.,Non-Spam
+861,Wow so healthy. Old airport rd lor. Cant thk of anything else. But i'll b bathing my dog later.,Non-Spam
+862,Hey anyway i have to :-),Non-Spam
+863,Yar but they say got some error.,Non-Spam
+864,Mmmmmmm *snuggles into you* ...*deep contented sigh* ... *whispers* ... I fucking love you so much I can barely stand it ...,Non-Spam
+865,Anytime...,Non-Spam
+866,I liked the new mobile,Non-Spam
+867,"WIN: We have a winner! Mr. T. Foley won an iPod! More exciting prizes soon, so keep an eye on ur mobile or visit www.win-82050.co.uk",Spam
+868,Yes fine ,Non-Spam
+869,Don no da:)whats you plan?,Non-Spam
+870,"Okey dokey, i‘ll be over in a bit just sorting some stuff out.",Non-Spam
+871,A guy who gets used but is too dumb to realize it.,Non-Spam
+872,"URGENT! Your Mobile No 07808726822 was awarded a £2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9758 BOX95QU",Spam
+873,Pls give her the food preferably pap very slowly with loads of sugar. You can take up to an hour to give it. And then some water. Very very slowly.,Non-Spam
+874,Tessy..pls do me a favor. Pls convey my birthday wishes to Nimya..pls dnt forget it. Today is her birthday Shijas,Non-Spam
+875,"By march ending, i should be ready. But will call you for sure. The problem is that my capital never complete. How far with you. How's work and the ladies",Non-Spam
+876,Surly ill give it to you:-) while coming to review.,Non-Spam
+877,Ok no prob,Non-Spam
+878,"Didn't try, g and I decided not to head out",Non-Spam
+879,Hmmm.but you should give it on one day..,Non-Spam
+880,Eatin my lunch...,Non-Spam
+881,But pls dont play in others life.,Non-Spam
+882,"Alright we'll bring it to you, see you in like  &lt;#&gt;  mins",Non-Spam
+883,"My life Means a lot to me, Not because I love my life, But because I love the people in my life, The world calls them friends, I call them my World:-).. Ge:-)..",Non-Spam
+884,Ok u can take me shopping when u get paid =D,Non-Spam
+885,"Haha yeah, 2 oz is kind of a shitload",Non-Spam
+886,Are you staying in town ?,Non-Spam
+887,"That's cool he'll be here all night, lemme know when you're around",Non-Spam
+888,Sry da..jst nw only i came to home..,Non-Spam
+889,It is a good thing I'm now getting the connection to bw,Non-Spam
+890,Wewa is 130. Iriver 255. All 128 mb.,Non-Spam
+891,Ü ready then call me...,Non-Spam
+892,"Hi babe its Chloe, how r u? I was smashed on saturday night, it was great! How was your weekend? U been missing me? SP visionsms.com Text stop to stop 150p/text",Spam
+893,I'm leaving my house now.,Non-Spam
+894,I forgot 2 ask ü all smth.. There's a card on da present lei... How? Ü all want 2 write smth or sign on it?,Non-Spam
+895,"Customer service announcement. We recently tried to make a delivery to you but were unable to do so, please call 07099833605 to re-schedule. Ref:9280114",Spam
+896,"Probably not, I'm almost out of gas and I get some cash tomorrow",Non-Spam
+897,"I didnt get ur full msg..sometext is missing, send it again",Non-Spam
+898,"When I was born, GOD said, ""Oh No! Another IDIOT"". When you were born, GOD said, ""OH No! COMPETITION"". Who knew, one day these two will become FREINDS FOREVER!",Non-Spam
+899,IM REALY SOZ IMAT MY MUMS 2NITE WHAT ABOUT 2MORO ,Non-Spam
+900,I send the print  outs da.,Non-Spam
+901,Not..tel software name..,Non-Spam
+902,Ok set let u noe e details later...,Non-Spam
+903,Mum not going robinson already.,Non-Spam
+904,No. Yes please. Been swimming?,Non-Spam
+905,Ladies first and genus second k .,Non-Spam
+906,Ok no prob...,Non-Spam
+907,You call him and tell now infront of them. Call him now.,Non-Spam
+908,I cant pick the phone right now. Pls send a message,Non-Spam
+909,This message is from a great Doctor in India:-): 1) Do not drink APPY FIZZ. It contains Cancer causing age,Non-Spam
+910,PRIVATE! Your 2003 Account Statement for shows 800 un-redeemed S. I. M. points. Call 08718738002 Identifier Code: 48922 Expires 21/11/04,Spam
+911,"K, I'll work something out",Non-Spam
+912,Our Prasanth ettans mother passed away last night. Just pray for her and family.,Non-Spam
+913,Hope you are having a great day.,Non-Spam
+914,Lol yes. But it will add some spice to your day.,Non-Spam
+915,Where r e meeting tmr?,Non-Spam
+916,A £400 XMAS REWARD IS WAITING FOR YOU! Our computer has randomly picked you from our loyal mobile customers to receive a £400 reward. Just call 09066380611 ,Spam
+917,"Finally it has happened..! Aftr decades..! BEER is now cheaper than PETROL! The goverment expects us to ""DRINK"". . . But don't ""DRIVE """,Non-Spam
+918,"Please protect yourself from e-threats. SIB never asks for sensitive information like Passwords,ATM/SMS PIN thru email. Never share your password with anybody.",Non-Spam
+919,We are okay. Going to sleep now. Later,Non-Spam
+920,God created gap btwn ur fingers so dat sum1 vry special will fill those gaps by holding ur hands.. Now plz dont ask y he created so much gap between legs !!!,Non-Spam
+921,We tried to contact you re your reply to our offer of a Video Phone 750 anytime any network mins Half Price Line Rental Camcorder Reply or call 08000930705,Spam
+922,Are you planning to come chennai?,Non-Spam
+923,Did u got that persons story,Non-Spam
+924,Sorry i din lock my keypad.,Non-Spam
+925,You are being ripped off! Get your mobile content from www.clubmoby.com call 08717509990 poly/true/Pix/Ringtones/Games six downloads for only 3,Spam
+926,Havent.,Non-Spam
+927,Do you hide anythiing or keeping distance from me,Non-Spam
+928,Of course. I guess god's just got me on hold right now.,Non-Spam
+929,Captain vijaykanth is doing comedy in captain tv..he is drunken :),Non-Spam
+930,Oh ho. Is this the first time u use these type of words,Non-Spam
+931,K k pa Had your lunch aha.,Non-Spam
+932,How come i din c ü... Yup i cut my hair...,Non-Spam
+933,These won't do. Have to move on to morphine,Non-Spam
+934,Oh wow thats gay. Will firmware update help,Non-Spam
+935,"I'm in a meeting, call me later at",Non-Spam
+936,"Got hella gas money, want to go on a grand nature adventure with galileo in a little bit?",Non-Spam
+937,Everybody had fun this evening. Miss you.,Non-Spam
+938,Only saturday and sunday holiday so its very difficult:),Non-Spam
+939,Todays Voda numbers ending with 7634 are selected to receive a £350 reward. If you have a match please call 08712300220 quoting claim code 7684 standard rates apply.,Spam
+940,Please call our customer service representative on 0800 169 6031 between 10am-9pm as you have WON a guaranteed £1000 cash or £5000 prize!,Spam
+941,Lol ... I knew that .... I saw him in the dollar store,Non-Spam
+942,I'm on the bus. Love you,Non-Spam
+943,Jus finish blowing my hair. U finish dinner already?,Non-Spam
+944,"U need my presnts always bcz U cant mis love. ""jeevithathile irulinae neekunna prakasamanu sneham"" prakasam ennal prabha 'That mns prabha is'LOVE' Got it. Dont mis me....",Non-Spam
+945,They finally came to fix the ceiling.,Non-Spam
+946,"Received, understood n acted upon!",Non-Spam
+947,THIS IS A LONG FUCKIN SHOWR,Non-Spam
+948,"Sorry, I'll call later In meeting.",Non-Spam
+949,Nvm... I'm going to wear my sport shoes anyway... I'm going to be late leh.,Non-Spam
+950,Good. do you think you could send me some pix? I would love to see your top and bottom...,Non-Spam
+951,Ü called dad oredi...,Non-Spam
+952,Sunshine Quiz! Win a super Sony DVD recorder if you canname the capital of Australia? Text MQUIZ to 82277. B,Spam
+953,hows my favourite person today? r u workin hard? couldn't sleep again last nite nearly rang u at 4.30,Non-Spam
+954,How much you got for cleaning,Non-Spam
+955,Sorry da. I gone mad so many pending works what to do.,Non-Spam
+956,Wat time ü finish?,Non-Spam
+957,Just glad to be talking to you.,Non-Spam
